@@ -68,4 +68,17 @@ The /overview command migrated to agent-based architecture. Twitter API integrat
 
 ---
 
+## The Timeline Curator Agent
+
+This timeline is maintained by an automated agent that runs weekly. The [timeline-curator.md](./timeline-curator.md) file documents the agent's workflow, including:
+
+- **Weekly Chapter Template** - The standard structure for each week's narrative
+- **Day Entry Format** - How individual days are documented with commits, lessons learned, and metrics
+- **Quality Verification** - Checks for navigation links, reflection sections, and narrative consistency
+- **Writing Voice** - The "You did..." second-person narrative style that tells the story
+
+The agent monitors git commits, identifies timeline-worthy developments, and proposes updates that maintain the serial narrative format.
+
+---
+
 *Start reading: [Week 1: The Initial Sprint →](./week-01-days-0-11.md)*

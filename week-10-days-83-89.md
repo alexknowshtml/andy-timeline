@@ -1,6 +1,6 @@
 # Week 10: Agent Refactoring (Days 83-89)
 
-**December 23-29, 2025** | [← Previous: Week 9](./week-09-days-76-82.md)
+**December 23-29, 2025** | [← Previous: Week 9](./week-09-days-76-82.md) | [Next: Week 11 →](./week-11-days-90-96.md)
 
 > **Previously:** Memory Lane launched with semantic search and "surfaced because" context. The host-bridge service extraction split 1 monolith into 6 focused services. iMessage inbox triage brought text message workflows to parity with email. Two consecutive days hit 91 commits each.
 
@@ -343,4 +343,4 @@ The pattern was clear: extract inline prompt → create agent file → add to re
 
 ---
 
-**Next:** To be continued as development progresses...
+**Next:** WebSocket consolidation, Network Tracker, and Discord approval workflows → [Week 11: Real-Time Infrastructure](./week-11-days-90-96.md)

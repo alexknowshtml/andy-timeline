@@ -1,8 +1,8 @@
 # Building Andy: The Development Timeline
 
-**October 8 - December 29, 2025 (Days 0-89)**
+**October 8, 2025 - January 5, 2026 (Days 0-96)**
 
-This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, and auto-suggest buttons with agent-based architecture.
+This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, and Discord-based human-in-the-loop approval workflows.
 
 What started as "let's see what Claude Code can do" became a daily collaboration that fundamentally changed how I think about building software with AI.
 
@@ -22,6 +22,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 8 | 69-75 | [Security Hardening](./week-08-days-69-75.md) | Dec 9-15 | Authentication, push notifications, UI polish |
 | 9 | 76-82 | [Memory Intelligence](./week-09-days-76-82.md) | Dec 16-22 | Memory Lane, multi-user foundation, iMessage triage |
 | 10 | 83-89 | [Agent Refactoring](./week-10-days-83-89.md) | Dec 23-29 | Auto-suggest buttons, open source prep |
+| 11 | 90-96 | [Real-Time Infrastructure](./week-11-days-90-96.md) | Dec 30 - Jan 5 | WebSocket unification, Network Tracker, PM Agent |
 
 ---
 
@@ -57,14 +58,17 @@ Memory Lane semantic search. Host-bridge service extraction. Infisical migration
 ### [Week 10: Agent Refactoring](./week-10-days-83-89.md) (Days 83-89)
 The /overview command migrated to agent-based architecture. Twitter API integration. Sessions API for historical context. Auto-suggest buttons. Open source preparation begins.
 
+### [Week 11: Real-Time Infrastructure](./week-11-days-90-96.md) (Days 90-96)
+WebSocket consolidation unified all real-time communication. UniFi Network Tracker launched for physical presence detection. Skills architecture matured with @skill autocomplete. PM Agent introduced Discord-based human-in-the-loop approvals.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 89 days (Oct 8 - Dec 29, 2025)
+- **Duration:** 96 days (Oct 8, 2025 - Jan 5, 2026)
 - **Agents:** 44+
-- **Skills:** 100+
-- **Lines of timeline:** 5,000+
+- **Skills:** 112+
+- **Lines of timeline:** 6,000+
 
 ---
 

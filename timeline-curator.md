@@ -585,7 +585,7 @@ Top highlights:
 Read the update: https://github.com/alexknowshtml/andy/blob/main/system/andy-timeline/week-10-days-83-89.md
 ```
 
-The `/send-to-discord` command will handle posting to #andy-v2 with proper panel formatting.
+The `/send-to-discord` command will handle posting to #system-notifications with proper panel formatting.
 
 ## Success Metrics
 

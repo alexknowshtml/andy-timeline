@@ -441,4 +441,4 @@ The PM Agent posts to Discord with action buttons. Click "Approve" and Claude sp
 
 ---
 
-**Next:** To be continued as development progresses...
+**Next:** @Andy Discord mentions bring conversational AI to Discord threads → [Week 12: Discord Conversations & Personal Archives](./week-12-days-97-103.md)

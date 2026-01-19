@@ -1,6 +1,6 @@
 # Week 12: Discord Conversations & Personal Archives (Days 97-103)
 
-**January 6-12, 2026** | [← Previous: Week 11](./week-11-days-90-96.md)
+**January 6-12, 2026** | [← Previous: Week 11](./week-11-days-90-96.md) | [Next: Week 13 →](./week-13-days-104-110.md)
 
 > **Previously:** WebSocket consolidation unified real-time communication. The UniFi Network Tracker launched for physical presence detection. Skills architecture matured with @skill autocomplete in chat. The PM Agent introduced Discord-based human-in-the-loop approvals with button-click-to-spawn workflow.
 
@@ -366,4 +366,4 @@ The hook architecture in Claude Code made observability integration almost trivi
 
 ---
 
-**Next:** To be continued as development progresses...
+**Next:** Voice interface launch and daily planning workflows → [Week 13: Voice Interface & Daily Planning](./week-13-days-104-110.md)

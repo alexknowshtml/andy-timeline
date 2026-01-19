@@ -1,8 +1,8 @@
 # Building Andy: The Development Timeline
 
-**October 8, 2025 - January 12, 2026 (Days 0-103)**
+**October 8, 2025 - January 19, 2026 (Days 0-110)**
 
-This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, and Langfuse observability integration.
+This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, and two-way calendar sync.
 
 What started as "let's see what Claude Code can do" became a daily collaboration that fundamentally changed how I think about building software with AI.
 
@@ -24,6 +24,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 10 | 83-89 | [Agent Refactoring](./week-10-days-83-89.md) | Dec 23-29 | Auto-suggest buttons, open source prep |
 | 11 | 90-96 | [Real-Time Infrastructure](./week-11-days-90-96.md) | Dec 30 - Jan 5 | WebSocket unification, Network Tracker, PM Agent |
 | 12 | 97-103 | [Discord Conversations & Personal Archives](./week-12-days-97-103.md) | Jan 6-12 | @Andy Discord mentions, Langfuse tracing, Flickr archive |
+| 13 | 104-110 | [Voice Interface & Daily Planning](./week-13-days-104-110.md) | Jan 13-19 | LiveKit voice, plan-day skill, calendar sync |
 
 ---
 
@@ -65,14 +66,17 @@ WebSocket consolidation unified all real-time communication. UniFi Network Track
 ### [Week 12: Discord Conversations & Personal Archives](./week-12-days-97-103.md) (Days 97-103)
 @Andy Discord mentions created threaded Claude conversations accessible from any Discord channel. Langfuse integration added production observability. The Flickr archive browser made 15+ years of photos searchable. Day 100 milestone passed.
 
+### [Week 13: Voice Interface & Daily Planning](./week-13-days-104-110.md) (Days 104-110)
+LiveKit voice conversations with ElevenLabs TTS brought real-time audio to Andy. The plan-day skill emerged from real workflow needs. Two-way Google Calendar sync for Events @ 709. Behavioral pattern fingerprinting for network tracking. Subagent spawning architecture for multi-agent coordination.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 103 days (Oct 8, 2025 - Jan 12, 2026)
+- **Duration:** 110 days (Oct 8, 2025 - Jan 19, 2026)
 - **Agents:** 44+
-- **Skills:** 118+
-- **Lines of timeline:** 7,000+
+- **Skills:** 125+
+- **Lines of timeline:** 7,500+
 
 ---
 

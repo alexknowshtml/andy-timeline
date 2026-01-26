@@ -1,6 +1,6 @@
 # Building Andy: The Development Timeline
 
-**October 8, 2025 - January 19, 2026 (Days 0-110)**
+**October 8, 2025 - January 26, 2026 (Days 0-117)**
 
 This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, and two-way calendar sync.
 
@@ -25,6 +25,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 11 | 90-96 | [Real-Time Infrastructure](./week-11-days-90-96.md) | Dec 30 - Jan 5 | WebSocket unification, Network Tracker, PM Agent |
 | 12 | 97-103 | [Discord Conversations & Personal Archives](./week-12-days-97-103.md) | Jan 6-12 | @Andy Discord mentions, Langfuse tracing, Flickr archive |
 | 13 | 104-110 | [Voice Interface & Daily Planning](./week-13-days-104-110.md) | Jan 13-19 | LiveKit voice, plan-day skill, calendar sync |
+| 14 | 111-117 | [Cord & Cross-Platform Tools](./week-14-days-111-117.md) | Jan 20-26 | Cord standalone, handwriting OCR, Discord buttons |
 
 ---
 
@@ -69,14 +70,17 @@ WebSocket consolidation unified all real-time communication. UniFi Network Track
 ### [Week 13: Voice Interface & Daily Planning](./week-13-days-104-110.md) (Days 104-110)
 LiveKit voice conversations with ElevenLabs TTS brought real-time audio to Andy. The plan-day skill emerged from real workflow needs. Two-way Google Calendar sync for Events @ 709. Behavioral pattern fingerprinting for network tracking. Subagent spawning architecture for multi-agent coordination.
 
+### [Week 14: Cord & Cross-Platform Tools](./week-14-days-111-117.md) (Days 111-117)
+The Discord-Claude bridge became Cord, a standalone open-source project. Handwriting transcriber brought OCR to post-its and whiteboards via image tiling. Beads dashboard gained interactive Discord buttons. New skills: Excalidraw flowcharts, Luma CLI, party-math, LinkedIn automation. The andy@indyhall.org email inbound system connected member emails to Discord for AI-assisted responses.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 110 days (Oct 8, 2025 - Jan 19, 2026)
+- **Duration:** 117 days (Oct 8, 2025 - Jan 26, 2026)
 - **Agents:** 44+
-- **Skills:** 125+
-- **Lines of timeline:** 7,500+
+- **Skills:** 133+
+- **Lines of timeline:** 8,000+
 
 ---
 

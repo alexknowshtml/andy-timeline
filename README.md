@@ -1,6 +1,6 @@
 # Building Andy: The Development Timeline
 
-**October 8, 2025 - January 26, 2026 (Days 0-117)**
+**October 8, 2025 - February 2, 2026 (Days 0-124)**
 
 This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, and two-way calendar sync.
 
@@ -26,6 +26,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 12 | 97-103 | [Discord Conversations & Personal Archives](./week-12-days-97-103.md) | Jan 6-12 | @Andy Discord mentions, Langfuse tracing, Flickr archive |
 | 13 | 104-110 | [Voice Interface & Daily Planning](./week-13-days-104-110.md) | Jan 13-19 | LiveKit voice, plan-day skill, calendar sync |
 | 14 | 111-117 | [Cord & Cross-Platform Tools](./week-14-days-111-117.md) | Jan 20-26 | Cord standalone, handwriting OCR, Discord buttons |
+| 15 | 118-124 | [Knowledge Architecture & Security Hardening](./week-15-days-118-124.md) | Jan 27 - Feb 2 | Knowledge restructure, untrusted content defense, Warren |
 
 ---
 
@@ -73,14 +74,17 @@ LiveKit voice conversations with ElevenLabs TTS brought real-time audio to Andy.
 ### [Week 14: Cord & Cross-Platform Tools](./week-14-days-111-117.md) (Days 111-117)
 The Discord-Claude bridge became Cord, a standalone open-source project. Handwriting transcriber brought OCR to post-its and whiteboards via image tiling. Beads dashboard gained interactive Discord buttons. New skills: Excalidraw flowcharts, Luma CLI, party-math, LinkedIn automation. The andy@indyhall.org email inbound system connected member emails to Discord for AI-assisted responses.
 
+### [Week 15: Knowledge Architecture & Security Hardening](./week-15-days-118-124.md) (Days 118-124)
+The knowledge base underwent a major structural overhaul - directories renamed, date prefixes added, 73 bookmarks filed as standalone documents, and automated auditing deployed. Untrusted content defense added prompt injection protection. Warren financial advisor skill brought multi-business diagnostics. Voice agent gained SSE streaming for 75% latency reduction. Luma calendar invite system deployed for time-slot events.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 117 days (Oct 8, 2025 - Jan 26, 2026)
+- **Duration:** 124 days (Oct 8, 2025 - Feb 2, 2026)
 - **Agents:** 44+
-- **Skills:** 133+
-- **Lines of timeline:** 8,000+
+- **Skills:** 137+
+- **Lines of timeline:** 8,500+
 
 ---
 

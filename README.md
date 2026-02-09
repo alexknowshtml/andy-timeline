@@ -1,6 +1,6 @@
 # Building Andy: The Development Timeline
 
-**October 8, 2025 - February 2, 2026 (Days 0-124)**
+**October 8, 2025 - February 9, 2026 (Days 0-131)**
 
 This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, and two-way calendar sync.
 
@@ -27,6 +27,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 13 | 104-110 | [Voice Interface & Daily Planning](./week-13-days-104-110.md) | Jan 13-19 | LiveKit voice, plan-day skill, calendar sync |
 | 14 | 111-117 | [Cord & Cross-Platform Tools](./week-14-days-111-117.md) | Jan 20-26 | Cord standalone, handwriting OCR, Discord buttons |
 | 15 | 118-124 | [Knowledge Architecture & Security Hardening](./week-15-days-118-124.md) | Jan 27 - Feb 2 | Knowledge restructure, untrusted content defense, Warren |
+| 16 | 125-131 | [Insights Intelligence & Audience Research](./week-16-days-125-131.md) | Feb 3-9 | Andy Insights, Sales Safari, supplies tracker, Excalidraw Live |
 
 ---
 
@@ -77,14 +78,17 @@ The Discord-Claude bridge became Cord, a standalone open-source project. Handwri
 ### [Week 15: Knowledge Architecture & Security Hardening](./week-15-days-118-124.md) (Days 118-124)
 The knowledge base underwent a major structural overhaul - directories renamed, date prefixes added, 73 bookmarks filed as standalone documents, and automated auditing deployed. Untrusted content defense added prompt injection protection. Warren financial advisor skill brought multi-business diagnostics. Voice agent gained SSE streaming for 75% latency reduction. Luma calendar invite system deployed for time-slot events.
 
+### [Week 16: Insights Intelligence & Audience Research](./week-16-days-125-131.md) (Days 125-131)
+Andy Insights shipped a complete self-analytics pipeline - Haiku extracts structured facets from every session (~$0.002 each), Sonnet synthesizes weekly reports (~$0.04 each), published as dark-themed HTML dashboards. Sales Safari brought 30x500 audience research methodology with a dedicated skill and standalone browser app. The Indy Hall Supplies Tracker went from audit to production in one day (5 tables, 18 endpoints, automated reorder monitoring). Excalidraw Live launched as a real-time collaborative diagram editor. Front email integration replaced Gmail for iPostal mail handling.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 124 days (Oct 8, 2025 - Feb 2, 2026)
+- **Duration:** 131 days (Oct 8, 2025 - Feb 9, 2026)
 - **Agents:** 44+
-- **Skills:** 137+
-- **Lines of timeline:** 8,500+
+- **Skills:** 141+
+- **Lines of timeline:** 8,800+
 
 ---
 

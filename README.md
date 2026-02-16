@@ -1,8 +1,8 @@
 # Building Andy: The Development Timeline
 
-**October 8, 2025 - February 9, 2026 (Days 0-131)**
+**October 8, 2025 - February 16, 2026 (Days 0-138)**
 
-This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, and two-way calendar sync.
+This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, two-way calendar sync, Discord voice replies, and a Notion migration pipeline.
 
 What started as "let's see what Claude Code can do" became a daily collaboration that fundamentally changed how I think about building software with AI.
 
@@ -28,6 +28,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 14 | 111-117 | [Cord & Cross-Platform Tools](./week-14-days-111-117.md) | Jan 20-26 | Cord standalone, handwriting OCR, Discord buttons |
 | 15 | 118-124 | [Knowledge Architecture & Security Hardening](./week-15-days-118-124.md) | Jan 27 - Feb 2 | Knowledge restructure, untrusted content defense, Warren |
 | 16 | 125-131 | [Insights Intelligence & Audience Research](./week-16-days-125-131.md) | Feb 3-9 | Andy Insights, Sales Safari, supplies tracker, Excalidraw Live |
+| 17 | 132-138 | [Birthdays, Reminders & the Notion Migration](./week-17-days-132-138.md) | Feb 10-16 | Birthday database, Luma Reminders v2, Notion migration, Discord voice |
 
 ---
 
@@ -81,14 +82,17 @@ The knowledge base underwent a major structural overhaul - directories renamed, 
 ### [Week 16: Insights Intelligence & Audience Research](./week-16-days-125-131.md) (Days 125-131)
 Andy Insights shipped a complete self-analytics pipeline - Haiku extracts structured facets from every session (~$0.002 each), Sonnet synthesizes weekly reports (~$0.04 each), published as dark-themed HTML dashboards. Sales Safari brought 30x500 audience research methodology with a dedicated skill and standalone browser app. The Indy Hall Supplies Tracker went from audit to production in one day (5 tables, 18 endpoints, automated reorder monitoring). Excalidraw Live launched as a real-time collaborative diagram editor. Front email integration replaced Gmail for iPostal mail handling.
 
+### [Week 17: Birthdays, Reminders & the Notion Migration](./week-17-days-132-138.md) (Days 132-138)
+A birthday database with Nexudus sync, Google Calendar scan, and a Birthday Browser web app shipped alongside Luma Reminders v2 with per-event email customization. The Notion migration marathon migrated 38 of 42 items - policies enhanced, templates generalized, 594 Sparkfile entries consolidated. Discord voice replies, incremental posting, the Discord approval pattern, iPostal command suite, and Google Meet transcript auto-processing rounded out the week.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 131 days (Oct 8, 2025 - Feb 9, 2026)
+- **Duration:** 138 days (Oct 8, 2025 - Feb 16, 2026)
 - **Agents:** 44+
-- **Skills:** 141+
-- **Lines of timeline:** 8,800+
+- **Skills:** 146+
+- **Lines of timeline:** 9,200+
 
 ---
 

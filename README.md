@@ -1,8 +1,8 @@
 # Building Andy: The Development Timeline
 
-**October 8, 2025 - February 23, 2026 (Days 0-145)**
+**October 8, 2025 - March 2, 2026 (Days 0-152)**
 
-This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, two-way calendar sync, Discord voice replies, a Notion migration pipeline, context compaction resilience, a Spotify music database, and Omi wearable integration.
+This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, two-way calendar sync, Discord voice replies, a Notion migration pipeline, context compaction resilience, a Spotify music database, Omi wearable integration, session continuity with state vectors, PM agent priority training, and self-diagnostic forensics.
 
 What started as "let's see what Claude Code can do" became a daily collaboration that fundamentally changed how I think about building software with AI.
 
@@ -30,6 +30,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 16 | 125-131 | [Insights Intelligence & Audience Research](./week-16-days-125-131.md) | Feb 3-9 | Andy Insights, Sales Safari, supplies tracker, Excalidraw Live |
 | 17 | 132-138 | [Birthdays, Reminders & the Notion Migration](./week-17-days-132-138.md) | Feb 10-16 | Birthday database, Luma Reminders v2, Notion migration, Discord voice |
 | 18 | 139-145 | [Context Resilience, Music Intelligence & Hardware Integration](./week-18-days-139-145.md) | Feb 17-23 | Context optimization, Spotify database, Omi wearable, Minut monitoring |
+| 19 | 146-152 | [Session Continuity, Priority Intelligence & Good Neighbors](./week-19-days-146-152.md) | Feb 24 - Mar 2 | Continuity architecture, PM training, Good Neighbors toolkits |
 
 ---
 
@@ -89,14 +90,17 @@ A birthday database with Nexudus sync, Google Calendar scan, and a Birthday Brow
 ### [Week 18: Context Resilience, Music Intelligence & Hardware Integration](./week-18-days-139-145.md) (Days 139-145)
 A three-phase CLAUDE.md audit cut always-loaded tokens by 42%. Context-warning skill and compaction-resilient session continuity techniques made sessions dramatically more durable. The Spotify music database imported 216 playlists (27,285 tracks) with YouTube ID resolution and normalized schema. Omi AI wearable gained a full conversation processing pipeline. Minut noise sensors got TypeScript monitoring scripts. Supplies auto-triage added LLM classification with Discord approval. CC-hotswap, Front notification enricher, and an email automation builder rounded out the week.
 
+### [Week 19: Session Continuity, Priority Intelligence & Good Neighbors](./week-19-days-146-152.md) (Days 146-152)
+Session continuity deepened with state vector extraction, a morning landscape hook, and /new-thread workstream spawning. The PM agent gained a training system where Alex teaches it to prioritize through conversational calibration - 4 sessions, 20 examples, zero corrections by session 4. The three-stage Omi extraction pipeline (Haiku triage -> quality gate -> Sonnet deep extract) shipped alongside the curiosity learning channel and Andy Insights pages surfacing 4,674 sessions of facet data. Good Neighbors partner toolkits launched across indyhall.org. The /heal command and session-forensics skill gave Andy self-diagnostic capabilities.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 145 days (Oct 8, 2025 - Feb 23, 2026)
+- **Duration:** 152 days (Oct 8, 2025 - Mar 2, 2026)
 - **Agents:** 44+
-- **Skills:** 153+
-- **Lines of timeline:** 9,500+
+- **Skills:** 162+
+- **Lines of timeline:** 10,000+
 
 ---
 

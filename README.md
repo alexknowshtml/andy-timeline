@@ -1,8 +1,8 @@
 # Building Andy: The Development Timeline
 
-**October 8, 2025 - March 2, 2026 (Days 0-152)**
+**October 8, 2025 - March 9, 2026 (Days 0-159)**
 
-This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, two-way calendar sync, Discord voice replies, a Notion migration pipeline, context compaction resilience, a Spotify music database, Omi wearable integration, session continuity with state vectors, PM agent priority training, and self-diagnostic forensics.
+This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, two-way calendar sync, Discord voice replies, a Notion migration pipeline, context compaction resilience, a Spotify music database, Omi wearable integration, session continuity with state vectors, PM agent priority training, self-diagnostic forensics, PWYW registration automation, database independence via local PostgreSQL, and multi-user Discord thread awareness.
 
 What started as "let's see what Claude Code can do" became a daily collaboration that fundamentally changed how I think about building software with AI.
 
@@ -31,6 +31,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 17 | 132-138 | [Birthdays, Reminders & the Notion Migration](./week-17-days-132-138.md) | Feb 10-16 | Birthday database, Luma Reminders v2, Notion migration, Discord voice |
 | 18 | 139-145 | [Context Resilience, Music Intelligence & Hardware Integration](./week-18-days-139-145.md) | Feb 17-23 | Context optimization, Spotify database, Omi wearable, Minut monitoring |
 | 19 | 146-152 | [Session Continuity, Priority Intelligence & Good Neighbors](./week-19-days-146-152.md) | Feb 24 - Mar 2 | Continuity architecture, PM training, Good Neighbors toolkits |
+| 20 | 153-159 | [PWYW Automation, Database Independence & Multi-User Discord](./week-20-days-153-159.md) | Mar 3-9 | PWYW pipeline, PostgreSQL migration, multi-user threads |
 
 ---
 
@@ -93,14 +94,17 @@ A three-phase CLAUDE.md audit cut always-loaded tokens by 42%. Context-warning s
 ### [Week 19: Session Continuity, Priority Intelligence & Good Neighbors](./week-19-days-146-152.md) (Days 146-152)
 Session continuity deepened with state vector extraction, a morning landscape hook, and /new-thread workstream spawning. The PM agent gained a training system where Alex teaches it to prioritize through conversational calibration - 4 sessions, 20 examples, zero corrections by session 4. The three-stage Omi extraction pipeline (Haiku triage -> quality gate -> Sonnet deep extract) shipped alongside the curiosity learning channel and Andy Insights pages surfacing 4,674 sessions of facet data. Good Neighbors partner toolkits launched across indyhall.org. The /heal command and session-forensics skill gave Andy self-diagnostic capabilities.
 
+### [Week 20: PWYW Automation, Database Independence & Multi-User Discord](./week-20-days-153-159.md) (Days 153-159)
+Pay What You Want registration automation went from plan to production in 5 phases across 3 days - webhook detection, Nexudus membership verification, batch processing, and Discord approval buttons. Andy Core's database migrated from Supabase to local PostgreSQL, eliminating an external dependency. Multi-user Discord thread awareness shipped with participant resolution and user-scoped buttons. A social media tracking database with cross-platform snapshots, session auto-recovery for context-exhausted Discord sessions, the indyhall.org monthlies page, and Luma reminder hardening rounded out the week.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 152 days (Oct 8, 2025 - Mar 2, 2026)
+- **Duration:** 159 days (Oct 8, 2025 - Mar 9, 2026)
 - **Agents:** 44+
-- **Skills:** 162+
-- **Lines of timeline:** 10,000+
+- **Skills:** 168+
+- **Lines of timeline:** 10,500+
 
 ---
 

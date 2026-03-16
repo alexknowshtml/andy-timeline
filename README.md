@@ -1,8 +1,8 @@
 # Building Andy: The Development Timeline
 
-**October 8, 2025 - March 9, 2026 (Days 0-159)**
+**October 8, 2025 - March 16, 2026 (Days 0-166)**
 
-This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, two-way calendar sync, Discord voice replies, a Notion migration pipeline, context compaction resilience, a Spotify music database, Omi wearable integration, session continuity with state vectors, PM agent priority training, self-diagnostic forensics, PWYW registration automation, database independence via local PostgreSQL, and multi-user Discord thread awareness.
+This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, two-way calendar sync, Discord voice replies, a Notion migration pipeline, context compaction resilience, a Spotify music database, Omi wearable integration, session continuity with state vectors, PM agent priority training, self-diagnostic forensics, PWYW registration automation, database independence via local PostgreSQL, multi-user Discord thread awareness, QMD semantic search with 54k+ vector embeddings, and adaptive Sleepme bed temperature scheduling.
 
 What started as "let's see what Claude Code can do" became a daily collaboration that fundamentally changed how I think about building software with AI.
 
@@ -32,6 +32,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 18 | 139-145 | [Context Resilience, Music Intelligence & Hardware Integration](./week-18-days-139-145.md) | Feb 17-23 | Context optimization, Spotify database, Omi wearable, Minut monitoring |
 | 19 | 146-152 | [Session Continuity, Priority Intelligence & Good Neighbors](./week-19-days-146-152.md) | Feb 24 - Mar 2 | Continuity architecture, PM training, Good Neighbors toolkits |
 | 20 | 153-159 | [PWYW Automation, Database Independence & Multi-User Discord](./week-20-days-153-159.md) | Mar 3-9 | PWYW pipeline, PostgreSQL migration, multi-user threads |
+| 21 | 160-166 | [Semantic Search, Bed Intelligence & Observability](./week-21-days-160-166.md) | Mar 10-16 | QMD embeddings, Sleepme integration, sync dashboard |
 
 ---
 
@@ -97,14 +98,17 @@ Session continuity deepened with state vector extraction, a morning landscape ho
 ### [Week 20: PWYW Automation, Database Independence & Multi-User Discord](./week-20-days-153-159.md) (Days 153-159)
 Pay What You Want registration automation went from plan to production in 5 phases across 3 days - webhook detection, Nexudus membership verification, batch processing, and Discord approval buttons. Andy Core's database migrated from Supabase to local PostgreSQL, eliminating an external dependency. Multi-user Discord thread awareness shipped with participant resolution and user-scoped buttons. A social media tracking database with cross-platform snapshots, session auto-recovery for context-exhausted Discord sessions, the indyhall.org monthlies page, and Luma reminder hardening rounded out the week.
 
+### [Week 21: Semantic Search, Bed Intelligence & Observability](./week-21-days-160-166.md) (Days 160-166)
+QMD semantic search brought 54,000+ vector embeddings across 16,000+ knowledge base files. Sleepme integration went from zero to adaptive bed temperature scheduling in three days, cross-referencing ecobee room sensors and reverse-engineering MQTT sensor traffic. The sync status dashboard grew from 12 to 55 monitored jobs with frequency-aware stale thresholds. A 27,000-error Discord reliability crisis was traced to synchronous HTTP thread exhaustion and fixed by restructuring the status flow architecture. PM2 watchdog gained interactive zombie panels, Langfuse was fully removed, and 7 new skills shipped.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 159 days (Oct 8, 2025 - Mar 9, 2026)
+- **Duration:** 166 days (Oct 8, 2025 - Mar 16, 2026)
 - **Agents:** 44+
-- **Skills:** 168+
-- **Lines of timeline:** 10,500+
+- **Skills:** 175+
+- **Lines of timeline:** 11,000+
 
 ---
 

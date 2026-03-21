@@ -248,20 +248,20 @@ Days 83-89 brought two major themes: **auto-suggest buttons** that reduce fricti
 
 #### 1. MCP CPU Watchdog Broke Communication
 
-**Cost:** Day 83 commit `d57855d60` added CPU watchdog to MCP wrapper, immediately reverted in `688e80ace`
-**Fix:** Reverted within same session after stdio communication failures
+**Cost:** Day 83 commit `d57855d60` added CPU watchdog to MCP wrapper, immediately reverted in `688e80ace`\
+**Fix:** Reverted within same session after stdio communication failures\
 **Lesson Learned:** MCP stdio communication is fragile. Don't add middleware that might buffer or delay output.
 
 #### 2. False Server Restart Prompts
 
-**Cost:** Day 85 required 3 commits to fix false "server restart" prompts annoying users
-**Fix:** Fixed session restore logic to not trigger restart detection
+**Cost:** Day 85 required 3 commits to fix false "server restart" prompts annoying users\
+**Fix:** Fixed session restore logic to not trigger restart detection\
 **Lesson Learned:** Session management edge cases compound into bad UX. Test session restore thoroughly.
 
 #### 3. Twitter API Rate Limits Hit Hard
 
-**Cost:** Day 87 discovered only 100 reads/month on Twitter API free tier
-**Fix:** Added rate limit warnings, defaulted to 1 tweet per query, made costs visible
+**Cost:** Day 87 discovered only 100 reads/month on Twitter API free tier\
+**Fix:** Added rate limit warnings, defaulted to 1 tweet per query, made costs visible\
 **Lesson Learned:** Always check API pricing/limits before integrating. Free tiers can be surprisingly restrictive.
 
 ---
@@ -270,28 +270,28 @@ Days 83-89 brought two major themes: **auto-suggest buttons** that reduce fricti
 
 #### 1. Auto-Suggest Buttons Transformed UX
 
-**Expected:** Nice-to-have feature for yes/no questions
+**Expected:** Nice-to-have feature for yes/no questions\
 **Actual:** Buttons make the assistant feel anticipatory and responsive
 
 The friction reduction multiplied across every interaction. What seemed like a small polish became a defining UX characteristic.
 
 #### 2. 193 Commits on Christmas Eve
 
-**Expected:** Light development day
+**Expected:** Light development day\
 **Actual:** Day 84 was the busiest day of the week (193 commits)
 
 Chat-first PWA loading, Synology documentation, iMessage animations, and Streamdown all shipped on Dec 24.
 
 #### 3. Session Transcripts As Institutional Memory
 
-**Expected:** Sessions-api would be occasionally useful
+**Expected:** Sessions-api would be occasionally useful\
 **Actual:** Querying past conversations unlocked massive context
 
 Being able to ask "what did we discuss about X last week" changed how context accumulates across sessions.
 
 #### 4. Agent Migration Went Smoothly
 
-**Expected:** /overview refactoring would take multiple days
+**Expected:** /overview refactoring would take multiple days\
 **Actual:** Phase 1 completed in one day (Day 88), all agents validated
 
 The pattern was clear: extract inline prompt → create agent file → add to registry → validate quality.

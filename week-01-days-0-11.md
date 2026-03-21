@@ -622,9 +622,9 @@ Andy wasn't built by planning everything upfront. It was built by:
 
 ---
 
-**Total commits:** 1,700+ (as of Day 11)
-**Total lines of code:** ~15,000+
-**Initial sprint:** 5 days (Days 0-5)
+**Total commits:** 1,700+ (as of Day 11)\
+**Total lines of code:** ~15,000+\
+**Initial sprint:** 5 days (Days 0-5)\
 **Most important commit:** `07cf01ad` - "rename to andy" (because identity matters)
 
 ---

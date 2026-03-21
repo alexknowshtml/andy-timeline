@@ -280,20 +280,20 @@ Days 69-75 focused on hardening security, improving mobile/light mode experience
 
 #### 1. Dark-Mode-First Development
 
-**Cost:** Day 73 required hours of CSS variable fixes for light mode
-**Fix:** Systematic audit of all color definitions, added light mode overrides
+**Cost:** Day 73 required hours of CSS variable fixes for light mode\
+**Fix:** Systematic audit of all color definitions, added light mode overrides\
 **Lesson Learned:** Test both modes early. Dark-mode-first creates technical debt.
 
 #### 2. Knowledge Library Phase 1 Data Loss
 
-**Cost:** Content lost during frontmatter migration, required restoration commits
-**Fix:** Restore commit + schema as single source of truth
+**Cost:** Content lost during frontmatter migration, required restoration commits\
+**Fix:** Restore commit + schema as single source of truth\
 **Lesson Learned:** Data migrations need rollback capability and integrity checks.
 
 #### 3. MDX Editor State Management
 
-**Cost:** 5 commits to fix "false unsaved changes" indicator
-**Fix:** Time-based window to ignore mount normalization, refs instead of state
+**Cost:** 5 commits to fix "false unsaved changes" indicator\
+**Fix:** Time-based window to ignore mount normalization, refs instead of state\
 **Lesson Learned:** Rich text editors have subtle state edge cases. Budget for iteration.
 
 ---
@@ -302,28 +302,28 @@ Days 69-75 focused on hardening security, improving mobile/light mode experience
 
 #### 1. Push Notifications Changed Mobile Utility
 
-**Expected:** Nice-to-have feature for reminders
+**Expected:** Nice-to-have feature for reminders\
 **Actual:** Transformed Andy from "app I check" to "assistant that reaches out"
 
 Proactive nudges made the mobile PWA feel alive.
 
 #### 2. Project Completion Was Missing
 
-**Expected:** Workflow was complete
+**Expected:** Workflow was complete\
 **Actual:** Projects couldn't be marked done - they just lingered
 
 Every workflow needs an ending state. Obvious in hindsight.
 
 #### 3. Security Hardening Was Interconnected
 
-**Expected:** Add authentication as isolated feature
+**Expected:** Add authentication as isolated feature\
 **Actual:** Sanctum + credential scanning + session auth all connected
 
 Security isn't a single feature - it's a system of interlocking protections.
 
 #### 4. Task UX Revolution Shipped in One Day
 
-**Expected:** Click-to-edit would take multiple iterations
+**Expected:** Click-to-edit would take multiple iterations\
 **Actual:** Day 71 shipped click-to-edit titles, due date picker, drag-and-drop phases
 
 When the pattern is clear (editable components), features ship fast.

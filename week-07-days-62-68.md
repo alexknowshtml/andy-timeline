@@ -187,9 +187,9 @@ A systematic effort to reduce context consumption:
 
 The event system evolved from files to database:
 
-**Phase 1:** People linking and outcomes tracking
-**Phase 2:** Project people endpoints and Cursor data linking
-**Phase 2.5:** Event planning data display in calendar UI
+**Phase 1:** People linking and outcomes tracking\
+**Phase 2:** Project people endpoints and Cursor data linking\
+**Phase 2.5:** Event planning data display in calendar UI\
 **Phase 3:** Event project templates and slash commands
 
 **New Slash Commands:**
@@ -313,20 +313,20 @@ Server authentication improvements:
 
 #### 1. Claude Memory Proxy Iteration
 
-**Cost:** 6+ commits to get claude-mem working through Caddy reverse proxy
-**Fix:** Systematic path-based routing for assets, APIs, and icons
+**Cost:** 6+ commits to get claude-mem working through Caddy reverse proxy\
+**Fix:** Systematic path-based routing for assets, APIs, and icons\
 **Lesson Learned:** Reverse proxy setups for external services rarely work on first try. Budget for iteration.
 
 #### 2. Event System Migration Complexity
 
-**Cost:** 5 phases to migrate from file-based to database-driven events
-**Fix:** Phased migration with data integrity checks at each step
+**Cost:** 5 phases to migrate from file-based to database-driven events\
+**Fix:** Phased migration with data integrity checks at each step\
 **Lesson Learned:** Major system migrations need explicit phases with validation between each.
 
 #### 3. Token Usage Double-Counting
 
-**Cost:** Inaccurate cost tracking during streaming
-**Fix:** Later fixed in Days 76-82 with proper streaming chunk detection
+**Cost:** Inaccurate cost tracking during streaming\
+**Fix:** Later fixed in Days 76-82 with proper streaming chunk detection\
 **Lesson Learned:** Streaming data requires different counting logic than batch data.
 
 ---
@@ -335,28 +335,28 @@ Server authentication improvements:
 
 #### 1. 136 Commits in a Single Day
 
-**Expected:** Big feature days might hit 50-70 commits
+**Expected:** Big feature days might hit 50-70 commits\
 **Actual:** Day 62 hit 136 commits - the API skills explosion
 
 When a pattern is clear (API skills template), replication is fast.
 
 #### 2. Voice Input Unlocked Mobile Use Cases
 
-**Expected:** Voice would be a nice-to-have
+**Expected:** Voice would be a nice-to-have\
 **Actual:** Voice made Andy genuinely useful on mobile
 
 The mode switch (tap vs long-press) matched natural interaction patterns.
 
 #### 3. Token Optimization Found Low-Hanging Fruit
 
-**Expected:** Context was already tight
+**Expected:** Context was already tight\
 **Actual:** 3 include consolidations, 2 file merges, orphaned files removed
 
 Scheduled optimization reviews pay dividends. Context bloat is invisible until you look.
 
 #### 4. Daily Reflection Prompts Changed Behavior
 
-**Expected:** 4pm Discord prompts would be ignored
+**Expected:** 4pm Discord prompts would be ignored\
 **Actual:** Regular prompts created accountability without friction
 
 Low-effort nudges have outsized impact on habit formation.

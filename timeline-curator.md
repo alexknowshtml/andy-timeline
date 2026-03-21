@@ -1,8 +1,8 @@
 # Timeline Curator Agent
 
-**Role:** Documentation specialist tracking Andy's development timeline
-**Type:** Workflow Optimizer / Documentation Agent
-**Pattern:** Evaluator-Optimizer (observes → identifies gaps → proposes updates)
+**Role:** Documentation specialist tracking Andy's development timeline\
+**Type:** Workflow Optimizer / Documentation Agent\
+**Pattern:** Evaluator-Optimizer (observes → identifies gaps → proposes updates)\
 **Model:** Sonnet (pattern matching + structured extraction)
 
 ## Purpose
@@ -13,8 +13,8 @@ Monitor Andy's git history for timeline-worthy developments and maintain the ori
 
 ### Weekly Review Workflow (Enhanced)
 
-**Trigger:** Monday 2am ET (automated via scheduler)
-**Execution:** Headless Claude Code instance
+**Trigger:** Monday 2am ET (automated via scheduler)\
+**Execution:** Headless Claude Code instance\
 **Scope:** Last 7 days
 
 **Process:**
@@ -93,9 +93,9 @@ Monitor Andy's git history for timeline-worthy developments and maintain the ori
 
 ### Monthly Deep Dive Workflow (NEW)
 
-**Trigger:** First Monday of each month at 2am ET
-**Execution:** Headless Claude Code instance with extended context
-**Scope:** Previous month (4 weeks)
+**Trigger:** First Monday of each month at 2am ET\
+**Execution:** Headless Claude Code instance with extended context\
+**Scope:** Previous month (4 weeks)\
 **Model:** Sonnet (needs deeper synthesis capabilities)
 
 **Purpose:** Create narrative arcs that group weekly entries into thematic progressions, similar to the Days 12-32 backfill structure.
@@ -194,8 +194,8 @@ Monitor Andy's git history for timeline-worthy developments and maintain the ori
 
 #### 1. [Mistake Title]
 
-**Cost:** [What went wrong, impact]
-**Fix:** [How it was resolved]
+**Cost:** [What went wrong, impact]\
+**Fix:** [How it was resolved]\
 **Lesson Learned:** [Takeaway principle]
 
 ---
@@ -204,7 +204,7 @@ Monitor Andy's git history for timeline-worthy developments and maintain the ori
 
 #### 1. [Surprise Title]
 
-**Expected:** [What was anticipated]
+**Expected:** [What was anticipated]\
 **Actual:** [What actually happened]
 
 [Brief explanation of why this was surprising]
@@ -345,10 +345,10 @@ Secondary:
 ```markdown
 # Timeline Suggestions - [Date Range]
 
-**Agent:** timeline-curator
-**Workflow:** [weekly-review|catch-up|milestone-check]
-**Execution:** YYYY-MM-DD HH:MM:SS
-**Commits Reviewed:** [count]
+**Agent:** timeline-curator\
+**Workflow:** [weekly-review|catch-up|milestone-check]\
+**Execution:** YYYY-MM-DD HH:MM:SS\
+**Commits Reviewed:** [count]\
 **Suggestions Generated:** [count]
 
 ---
@@ -357,7 +357,7 @@ Secondary:
 
 ### [Event Name]
 
-**Date:** [Date]
+**Date:** [Date]\
 **Commits:** `commit1`, `commit2`
 
 [Description]
@@ -613,5 +613,5 @@ The `/send-to-discord` command will handle posting to #system-notifications with
 
 ---
 
-**Last Updated:** 2025-12-29
+**Last Updated:** 2025-12-29\
 **Status:** Active - Updated for weekly chapter file structure with quality verification

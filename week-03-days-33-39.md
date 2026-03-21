@@ -367,20 +367,20 @@ Created unified `/feed` command with enrichment:
 
 #### 1. Unknown date_met Accumulated
 
-**Cost:** 21 person files with "Unknown" date_met values required manual research
-**Fix:** Day 38 systematic date research project + Discord alerts for future unknowns
+**Cost:** 21 person files with "Unknown" date_met values required manual research\
+**Fix:** Day 38 systematic date research project + Discord alerts for future unknowns\
 **Lesson Learned:** Data quality degrades silently. Add alerts for incomplete records before they accumulate.
 
 #### 2. Newsletter Emoji Inconsistency
 
-**Cost:** Multiple commits to fix emoji suggestions and formatting
-**Fix:** Added automatic emoji suggestions and presentation templates
+**Cost:** Multiple commits to fix emoji suggestions and formatting\
+**Fix:** Added automatic emoji suggestions and presentation templates\
 **Lesson Learned:** Content formatting should be automated, not left to manual entry.
 
 #### 3. Meeting Prep Calendar Confusion
 
-**Cost:** Day-of-week labels were wrong, personal vs work events mixed
-**Fix:** Separated Events @ 709 from personal calendar, fixed date labels
+**Cost:** Day-of-week labels were wrong, personal vs work events mixed\
+**Fix:** Separated Events @ 709 from personal calendar, fixed date labels\
 **Lesson Learned:** Calendar integrations need clear boundaries between work and personal contexts.
 
 ---
@@ -389,28 +389,28 @@ Created unified `/feed` command with enrichment:
 
 #### 1. Timeline Automation Worked First Try
 
-**Expected:** Multiple iterations to get the 3-tier system right
+**Expected:** Multiple iterations to get the 3-tier system right\
 **Actual:** First automated weekly update (Days 33-39) ran successfully on Day 40
 
 The tiered approach (weekly auto-updates, monthly synthesis, quarterly manual review) matched natural documentation rhythms.
 
 #### 2. Relationship Refresh Scale
 
-**Expected:** Slow, careful updates
+**Expected:** Slow, careful updates\
 **Actual:** Day 37 processed 48 sent emails → 22 person file updates in a single run
 
 Batch mode + parallel agent protocol enabled production-scale relationship intelligence.
 
 #### 3. Person File Validation Caught 21 Errors
 
-**Expected:** Schema was already enforced
+**Expected:** Schema was already enforced\
 **Actual:** YAML parsing errors and missing fields had accumulated unnoticed
 
 Adding validation revealed technical debt in the relationship system.
 
 #### 4. /Overview Optimization Was Fast
 
-**Expected:** Optimization would take multiple sessions
+**Expected:** Optimization would take multiple sessions\
 **Actual:** Sprint 2 completed in one day with 50-60% speed improvement
 
 Surgical optimization (removing unnecessary queries, batching updates) beats guessing.

@@ -421,21 +421,21 @@ Documented the core decision-making framework that guides Indy Hall operations.
 
 #### 1. Skills System Should Have Come Sooner
 
-**Cost:** 109 scripts accumulated before systematic cleanup
-**Fix:** Skills infrastructure + systematic review
+**Cost:** 109 scripts accumulated before systematic cleanup\
+**Fix:** Skills infrastructure + systematic review\
 **Lesson Learned:** When you hit 50+ scripts, pause and design abstractions. Don't wait for 100+.
 
 #### 2. Production Validation Takes Time
 
-**Mistake:** Wanting to delete old scripts immediately after skill conversion
-**Problem:** New code needs battle-testing before old code is removed
-**Fix:** Production validation period (1 day minimum)
+**Mistake:** Wanting to delete old scripts immediately after skill conversion\
+**Problem:** New code needs battle-testing before old code is removed\
+**Fix:** Production validation period (1 day minimum)\
 **Lesson Learned:** Patience in cleanup prevents production breakage.
 
 #### 3. Batch Size Guessing
 
-**Mistake:** Starting with "3-5 scripts per batch"
-**Discovery:** Batch 1 (22 scripts) took 2 sessions. Batch 2 (37 scripts) took 1 day.
+**Mistake:** Starting with "3-5 scripts per batch"\
+**Discovery:** Batch 1 (22 scripts) took 2 sessions. Batch 2 (37 scripts) took 1 day.\
 **Lesson Learned:** Batch size depends on decision complexity, not script count. Easy decisions scale faster than hard decisions.
 
 ---
@@ -444,7 +444,7 @@ Documented the core decision-making framework that guides Indy Hall operations.
 
 #### 1. Skills Unlocked Agent Reliability
 
-**Expected:** Skills would be cleaner than bash scripts
+**Expected:** Skills would be cleaner than bash scripts\
 **Unexpected:** Skills transformed agent reliability
 
 **Why:**
@@ -457,7 +457,7 @@ Documented the core decision-making framework that guides Indy Hall operations.
 
 #### 2. Cleanup Accelerates After First Batch
 
-**Expected:** Each batch would take similar time
+**Expected:** Each batch would take similar time\
 **Unexpected:** Batch 2 (37 scripts) took half the time of Batch 1 (22 scripts)
 
 **Why:** Pattern recognition from first batch:
@@ -470,7 +470,7 @@ Documented the core decision-making framework that guides Indy Hall operations.
 
 #### 3. Newsletter Features Emerged From Usage
 
-**Didn't plan:** Community Spotlight or Unusual Connections sections
+**Didn't plan:** Community Spotlight or Unusual Connections sections\
 **Emerged from:** Real-world newsletter writing
 
 **The pattern:**
@@ -501,7 +501,7 @@ Documented the core decision-making framework that guides Indy Hall operations.
 
 #### 6. Scripts Cleanup Found 37 Obsolete Scripts in One Day
 
-**Expected:** Slow, careful review
+**Expected:** Slow, careful review\
 **Actual:** Clear patterns made decisions fast
 
 **The obsolete script pattern:**

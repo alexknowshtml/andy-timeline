@@ -304,20 +304,20 @@ Enhanced detection logic and Stage 0 prep:
 
 #### 1. Dark Mode CSS Specificity Battles
 
-**Cost:** 6 commits on Day 47 just to fix event description colors in light/dark mode
-**Fix:** Added `!important` to ALL dark mode overrides, removed inline styles
+**Cost:** 6 commits on Day 47 just to fix event description colors in light/dark mode\
+**Fix:** Added `!important` to ALL dark mode overrides, removed inline styles\
 **Lesson Learned:** CSS specificity in email templates is a minefield. Test both modes in actual email clients, not just browser previews.
 
 #### 2. Newsletter Light Mode Text Invisible
 
-**Cost:** Day 44 published newsletter with dark mode rendering issues in ConvertKit
-**Fix:** Progressive refinement through multiple commits until perfect
+**Cost:** Day 44 published newsletter with dark mode rendering issues in ConvertKit\
+**Fix:** Progressive refinement through multiple commits until perfect\
 **Lesson Learned:** Email client rendering varies wildly. ConvertKit archives display differently than live emails.
 
 #### 3. Date Attribution Errors
 
-**Cost:** Multiple commits to fix "Wednesday not Thursday" and "Monday not Sunday" errors
-**Fix:** Always verify day-of-week matches date before committing
+**Cost:** Multiple commits to fix "Wednesday not Thursday" and "Monday not Sunday" errors\
+**Fix:** Always verify day-of-week matches date before committing\
 **Lesson Learned:** Temporal context errors compound. A wrong day attribution causes downstream confusion.
 
 ---
@@ -326,28 +326,28 @@ Enhanced detection logic and Stage 0 prep:
 
 #### 1. 3 Commits Was a Full Day of Work
 
-**Expected:** Busy days require many commits
+**Expected:** Busy days require many commits\
 **Actual:** Day 46 handled full relationship refresh with only 3 commits
 
 When automation works, quiet days are success indicators. Minimal commits meant maximum efficiency.
 
 #### 2. Meeting Processing Created Immediate Next-Meeting Prep
 
-**Expected:** Prep and processing as separate activities
+**Expected:** Prep and processing as separate activities\
 **Actual:** Processing Nov 11 meeting immediately generated Nov 18 prep
 
 The virtuous cycle: process → prep → process → prep maintains context continuity.
 
 #### 3. 36 Person Files in One Day
 
-**Expected:** Relationship refresh would be gradual
+**Expected:** Relationship refresh would be gradual\
 **Actual:** Day 42 updated 36 person files across 3 refresh cycles (7 + 15 + 14)
 
 Batch mode + multiple daily cycles = comprehensive relationship intelligence.
 
 #### 4. Audit Trail System Emerged From Meeting Quality Needs
 
-**Expected:** Audit trails were a future feature
+**Expected:** Audit trails were a future feature\
 **Actual:** Day 43 implemented comprehensive audit system to track meeting quality
 
 Real-world usage drove feature development. Meeting processing revealed the need for quality tracking.

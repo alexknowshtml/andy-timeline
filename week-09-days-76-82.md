@@ -243,20 +243,20 @@ Maintenance day with minor fixes and relationship updates. System running smooth
 
 #### 1. Memory Service Was Highest Risk
 
-**Cost:** Saved memory-service extraction for last in host-bridge refactor
-**Fix:** Ordered extractions by risk - health-service first, memory-service last
+**Cost:** Saved memory-service extraction for last in host-bridge refactor\
+**Fix:** Ordered extractions by risk - health-service first, memory-service last\
 **Lesson Learned:** Order extractions by risk. Build confidence with easy wins before tackling the hardest piece.
 
 #### 2. Sync Job Overwrote Manual Changes
 
-**Cost:** iMessage sync job was overwriting manual status changes (replied/dismissed)
-**Fix:** Add logic to preserve manual changes during sync
+**Cost:** iMessage sync job was overwriting manual status changes (replied/dismissed)\
+**Fix:** Add logic to preserve manual changes during sync\
 **Lesson Learned:** Background jobs must respect manual overrides. Users are the source of truth.
 
 #### 3. Token Double-Counting During Streaming
 
-**Cost:** Cost tracking was inaccurate until Day 81
-**Fix:** Detect and exclude streaming chunks from token counts
+**Cost:** Cost tracking was inaccurate until Day 81\
+**Fix:** Detect and exclude streaming chunks from token counts\
 **Lesson Learned:** Streaming data has different shapes than batch data. Don't assume uniformity.
 
 ---
@@ -265,28 +265,28 @@ Maintenance day with minor fixes and relationship updates. System running smooth
 
 #### 1. Memory Lane Surfacing Context Worked
 
-**Expected:** Semantic search would be noisy
+**Expected:** Semantic search would be noisy\
 **Actual:** "Surfaced because..." explanations made memories actionable
 
 Memory without context is just data. Explaining why a memory appeared made it useful.
 
 #### 2. 91 Commits on Two Consecutive Days
 
-**Expected:** Holiday week would be slow
+**Expected:** Holiday week would be slow\
 **Actual:** Days 80 and 81 both hit 91 commits each
 
 Memory Lane launch + token analytics + team credentials all shipped in the busiest 48-hour stretch.
 
 #### 3. Host-Bridge Extraction Was Clean
 
-**Expected:** Monolith → microservices would be painful
+**Expected:** Monolith → microservices would be painful\
 **Actual:** 1 monolith → 6 focused services with minimal issues
 
 When you understand the boundaries, extraction is mechanical rather than creative.
 
 #### 4. iMessage Triage Mirrored Email Exactly
 
-**Expected:** Text messages would need different workflows
+**Expected:** Text messages would need different workflows\
 **Actual:** Sync → Assess → Triage → Act pattern worked unchanged
 
 Proven patterns transfer across modalities. The plumbing differs, but the workflow is the same.

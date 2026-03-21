@@ -100,11 +100,11 @@ Recognized that the original orbit system had grown unwieldy:
 
 **The 7-Phase Migration:**
 
-**Phase 1-2:** Orbit cleanup plan with groupings and migration stages
-**Phase 3:** Run orbit migration - create orbits, normalize, remove drops/tags
-**Phase 4:** Move tags to frontmatter, normalize to canonical list
-**Phase 5:** Update validation rules for new tag system
-**Phase 6:** Update enrichment logic for normalized orbit names
+**Phase 1-2:** Orbit cleanup plan with groupings and migration stages\
+**Phase 3:** Run orbit migration - create orbits, normalize, remove drops/tags\
+**Phase 4:** Move tags to frontmatter, normalize to canonical list\
+**Phase 5:** Update validation rules for new tag system\
+**Phase 6:** Update enrichment logic for normalized orbit names\
 **Phase 7:** Update documentation for orbit/tag separation
 
 **Commit `fb83c3d4`:** "Add orbit normalization script and save progress"
@@ -354,21 +354,21 @@ The dashboard now shows the latest morning overview status brief.
 
 #### 1. iOS Safari Upload Complexity
 
-**Cost:** Multiple debugging commits, refactored approach required
+**Cost:** Multiple debugging commits, refactored approach required\
 **Fix:** Immediate upload on selection instead of deferred
 
 **Lesson Learned:** Test mobile early, not after desktop is "done."
 
 #### 2. Orbit/Tag Mixing
 
-**Cost:** 7-phase migration to separate concerns
+**Cost:** 7-phase migration to separate concerns\
 **Fix:** Clear separation - orbits for distance, tags for topics
 
 **Lesson Learned:** Taxonomies should have clear single-purpose categories from the start.
 
 #### 3. LocalStorage Quota Exhaustion
 
-**Cost:** Chat history lost, debugging session
+**Cost:** Chat history lost, debugging session\
 **Fix:** Trim history proactively, handle quota errors gracefully
 
 **Lesson Learned:** Browser storage limits are real constraints. Design for them.
@@ -379,28 +379,28 @@ The dashboard now shows the latest morning overview status brief.
 
 #### 1. Synthesis Intelligence Worked Immediately
 
-**Expected:** Pattern mining would need tuning
+**Expected:** Pattern mining would need tuning\
 **Actual:** First historical analysis (Weeks 43-48) produced actionable insights
 
 The pattern-miner, goal alignment corrector, and relationship warming detector all delivered value on day one.
 
 #### 2. 90+ Commits in a Single Day
 
-**Expected:** Feature days spread across multiple sessions
+**Expected:** Feature days spread across multiple sessions\
 **Actual:** Day 57 shipped Sparkfile, image uploads, slash command intelligence, tool call display, AND session persistence
 
 When features are orthogonal, they can ship in parallel.
 
 #### 3. Orbit/Tag Confusion Lasted 55 Days
 
-**Expected:** Classification issues would surface quickly
+**Expected:** Classification issues would surface quickly\
 **Actual:** The mixed orbit/tag system worked "well enough" until complexity made it unmaintainable
 
 Technical debt accumulates invisibly until a threshold is crossed.
 
 #### 4. Slash Command Intelligence Changed Usage Patterns
 
-**Expected:** Fuzzy search would be a convenience
+**Expected:** Fuzzy search would be a convenience\
 **Actual:** Usage-weighted prioritization meant the system learned user habits
 
 The interface became predictive rather than just responsive.

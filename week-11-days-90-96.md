@@ -348,20 +348,20 @@ WebSocket consolidation revealed edge cases in PWA session handling. Some change
 
 #### 1. WebSocket Consolidation Complexity
 
-**Cost:** Multiple revert commits (`f4dc66e35`) after WebSocket changes broke PWA session handling
-**Fix:** Tactical revert to pre-consolidation state while debugging continues
+**Cost:** Multiple revert commits (`f4dc66e35`) after WebSocket changes broke PWA session handling\
+**Fix:** Tactical revert to pre-consolidation state while debugging continues\
 **Lesson Learned:** WebSocket + PWA + session state = complex interaction matrix. Test PWA scenarios specifically, not just desktop browser.
 
 #### 2. Skills Directory Structure Inconsistency
 
-**Cost:** Day 92 required fixing 12 skills with wrong directory structure
-**Fix:** Batch migration to directory-with-SKILL.md pattern
+**Cost:** Day 92 required fixing 12 skills with wrong directory structure\
+**Fix:** Batch migration to directory-with-SKILL.md pattern\
 **Lesson Learned:** Establish conventions before scaling. Early skills used mixed patterns that required cleanup.
 
 #### 3. Network Tracker Duplicate People
 
-**Cost:** Same person appearing multiple times from different devices/check-in sources
-**Fix:** Built duplicate detection and merge functionality
+**Cost:** Same person appearing multiple times from different devices/check-in sources\
+**Fix:** Built duplicate detection and merge functionality\
 **Lesson Learned:** Entity resolution is hard. Any system tracking people from multiple sources needs merge capability from day one.
 
 ---
@@ -370,28 +370,28 @@ WebSocket consolidation revealed edge cases in PWA session handling. Some change
 
 #### 1. 420 Frontend Tests in One Day
 
-**Expected:** Gradual test coverage growth
+**Expected:** Gradual test coverage growth\
 **Actual:** Day 91 went from 169 to 420 tests in a single session
 
 Once Vitest and testing patterns were established, adding tests became mechanical. The bottleneck was setup, not execution.
 
 #### 2. Wine Cellar Became Useful Fast
 
-**Expected:** Fun side project, rarely used
+**Expected:** Fun side project, rarely used\
 **Actual:** Immediate utility for selecting bottles for dinner
 
 Cataloging 52 bottles took an afternoon. Now "what wine pairs with lamb?" returns an actual answer.
 
 #### 3. Network Tracker UI in One Day
 
-**Expected:** MVP API only, UI later
+**Expected:** MVP API only, UI later\
 **Actual:** Full shadcn dashboard with People table, device editing, and filters in Day 94
 
 When the data model is right, UI falls out quickly. The People table as primary entity made everything click.
 
 #### 4. Discord Buttons Work for AI Approval
 
-**Expected:** Complex approval UI needed
+**Expected:** Complex approval UI needed\
 **Actual:** Discord's native button reactions provide perfect approval interface
 
 The PM Agent posts to Discord with action buttons. Click "Approve" and Claude spawns to execute. Simple, mobile-friendly, already-installed.

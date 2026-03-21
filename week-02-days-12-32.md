@@ -526,30 +526,30 @@ You had two meeting commands:
 
 #### 1. Documentation Reorganization Without Link Tracking
 
-**Cost:** 186 broken links across 6 days of fixing
+**Cost:** 186 broken links across 6 days of fixing\
 **Fix:** Link healer agent automated the cleanup
 
 **Lesson Learned:** Track links BEFORE moving files, not after.
 
 #### 2. Schema Validation After 200+ Files
 
-**Cost:** 21 files with errors, manual research to fix dates
+**Cost:** 21 files with errors, manual research to fix dates\
 **Fix:** Added validation to person-researcher agent
 
 **Lesson Learned:** Validation should be part of creation, not inspection.
 
 #### 3. Over-Aggressive Automation Cadence
 
-**Mistake:** Relationship-refresh set to 4x daily
-**Problem:** Flooding Discord with notifications, duplicate processing
+**Mistake:** Relationship-refresh set to 4x daily\
+**Problem:** Flooding Discord with notifications, duplicate processing\
 **Fix:** Refined to once daily at 8am ET
 
 **Lesson Learned:** Start conservative with automation cadence. Increase gradually based on value.
 
 #### 4. Removing Optimized Filters
 
-**Mistake:** During email filter cleanup, you removed some optimized filters
-**Cost:** Had to recreate them from pattern memory
+**Mistake:** During email filter cleanup, you removed some optimized filters\
+**Cost:** Had to recreate them from pattern memory\
 **Fix:** Added filter documentation before removal
 
 **Lesson Learned:** Document before deleting. Optimization history is valuable context.
@@ -594,7 +594,7 @@ Expected 3-4x improvement from batching. Got 7x improvement (110s → 15s).
 
 Adding "read recent sent emails" to EOD transformed recommendations from generic to specific.
 
-**Before:** "Consider working on X tomorrow"
+**Before:** "Consider working on X tomorrow"\
 **After:** "You spent today in reactive mode (15 quick replies). Tomorrow, block 2 hours for deep work on Y."
 
 **Context awareness turned automation into intelligence.**
@@ -659,9 +659,9 @@ Adding "read recent sent emails" to EOD transformed recommendations from generic
 
 #### 1. Optimization Has Phases
 
-**Phase 1:** Make it work
-**Phase 2:** Make it fast (quick mode, batch processing)
-**Phase 3:** Make it smart (context awareness, enrichment)
+**Phase 1:** Make it work\
+**Phase 2:** Make it fast (quick mode, batch processing)\
+**Phase 3:** Make it smart (context awareness, enrichment)\
 **Phase 4:** Make it autonomous (self-healing, daily automation)
 
 Don't skip phases. Each builds on the previous.
@@ -729,7 +729,7 @@ Newsletter example:
 
 #### 8. Automation Cadence Needs Tuning
 
-**Too frequent:** Noise, duplicate work, notification fatigue
+**Too frequent:** Noise, duplicate work, notification fatigue\
 **Too infrequent:** Stale data, missed opportunities
 
 **The tuning process:**

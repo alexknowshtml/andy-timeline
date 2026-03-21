@@ -284,20 +284,20 @@ Running 3 queue workers prevents thread blocking when multiple Discord conversat
 
 #### 1. Discord Status Message Churn
 
-**Cost:** Day 102 had multiple commits iterating on status message format: Working → typing indicator → tool activity → minimal format
-**Fix:** Eventually settled on minimal status with tool activity detection
+**Cost:** Day 102 had multiple commits iterating on status message format: Working → typing indicator → tool activity → minimal format\
+**Fix:** Eventually settled on minimal status with tool activity detection\
 **Lesson Learned:** Ship something, learn from usage, iterate. The "perfect" status format wasn't obvious until users interacted with it.
 
 #### 2. QUIC Error Detection Shell Issues
 
-**Cost:** UDM health monitor failed to detect errors due to shell escaping
-**Fix:** Fixed regex patterns for busybox compatibility
+**Cost:** UDM health monitor failed to detect errors due to shell escaping\
+**Fix:** Fixed regex patterns for busybox compatibility\
 **Lesson Learned:** Test monitoring scripts in the actual environment. Dev machine bash != production busybox.
 
 #### 3. Queue Worker Blocking
 
-**Cost:** Single queue worker meant Discord conversations blocked each other
-**Fix:** Scaled to 3 workers
+**Cost:** Single queue worker meant Discord conversations blocked each other\
+**Fix:** Scaled to 3 workers\
 **Lesson Learned:** Async operations need capacity planning. One worker is fine until two things happen at once.
 
 ---
@@ -306,28 +306,28 @@ Running 3 queue workers prevents thread blocking when multiple Discord conversat
 
 #### 1. Discord as AI Interface Works
 
-**Expected:** Clunky, limited compared to custom chat UI
+**Expected:** Clunky, limited compared to custom chat UI\
 **Actual:** Threading, notifications, mobile app, history - all "free" from platform
 
 Discord's existing infrastructure handles problems that would take weeks to build from scratch.
 
 #### 2. Langfuse Integration Was Straightforward
 
-**Expected:** Complex tracing setup
+**Expected:** Complex tracing setup\
 **Actual:** Four hook scripts and it works
 
 The hook architecture in Claude Code made observability integration almost trivial.
 
 #### 3. Flickr Archive Had Immediate Value
 
-**Expected:** Nice-to-have nostalgia project
+**Expected:** Nice-to-have nostalgia project\
 **Actual:** Immediately useful for finding specific photos
 
 "When did we visit that restaurant?" is answered by searchable photo archives.
 
 #### 4. Day 100 Felt Normal
 
-**Expected:** Major milestone celebration
+**Expected:** Major milestone celebration\
 **Actual:** Another productive day
 
 100 days of building didn't feel like a milestone because the work just... continues. The system keeps growing.

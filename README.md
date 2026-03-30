@@ -34,6 +34,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 20 | 153-159 | [PWYW Automation, Database Independence & Multi-User Discord](./week-20-days-153-159.md) | Mar 3-9 | PWYW pipeline, PostgreSQL migration, multi-user threads |
 | 21 | 160-166 | [Semantic Search, Bed Intelligence & Observability](./week-21-days-160-166.md) | Mar 10-16 | QMD embeddings, Sleepme integration, sync dashboard |
 | 22 | 167-173 | [Unified Search, Config Consolidation & iMessage Resolution](./week-22-days-167-173.md) | Mar 17-23 | Unified search, config centralization, iMessage contact marathon |
+| 23 | 174-180 | [Smart Model Routing, PM2 Fortification & the Pretty-Page Platform](./week-23-days-174-180.md) | Mar 24-30 | Model delegation, systemd watchdog, PM2 hardening, pretty-page platform |
 
 ---
 
@@ -105,14 +106,17 @@ QMD semantic search brought 54,000+ vector embeddings across 16,000+ knowledge b
 ### [Week 22: Unified Search, Config Consolidation & iMessage Resolution](./week-22-days-167-173.md) (Days 167-173)
 A unified /search skill brought 14 data sources under one command with Find, Deep, and Person modes. Discord search gained first-class session linkage across 4 phases. A 4-phase config consolidation moved Discord channel IDs from 30+ hardcoded locations into a central registry. The defining arc: two new agents (imessage-contact-resolver and imessage-sync-orchestrator) resolved 151 contacts across 5 batches in a sustained two-day push, creating 20+ person files and enriching dozens more. An ESM/CJS naming conflict broke 12 scheduled jobs overnight. Ten new skills and 3 new SOPs shipped.
 
+### [Week 23: Smart Model Routing, PM2 Fortification & the Pretty-Page Platform](./week-23-days-174-180.md) (Days 174-180)
+The model delegation layer shipped in two phases - scheduled jobs defaulted to Sonnet, the Discord bridge gained smart escalation, and Discord model control let users choose models in real time. Pretty-page evolved into a document platform with collapsible TOC, localStorage checkboxes, floating copy button, and anchor links (30+ commits). A PM2 durability overhaul produced hardened restart scripts and the /restart skill. The PM2 watchdog migrated to systemd to prevent it killing its own parent process. A session source field broke an analytics feedback loop contaminating Andy Insights data. Eight new skills shipped.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 173 days (Oct 8, 2025 - Mar 23, 2026)
+- **Duration:** 180 days (Oct 8, 2025 - Mar 30, 2026)
 - **Agents:** 46+
-- **Skills:** 185+
-- **Lines of timeline:** 11,500+
+- **Skills:** 193+
+- **Lines of timeline:** 12,000+
 
 ---
 

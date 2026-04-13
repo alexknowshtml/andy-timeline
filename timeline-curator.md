@@ -37,8 +37,8 @@ Monitor Andy's git history for timeline-worthy developments and maintain the ori
 3. **Cross-reference with context:**
    - `/personal-data/andy/audit/` directory (agent activity patterns)
    - `/sops/` changes (new best practices)
-   - `agent-config-dir/` directory (new/modified agents)
-   - `/.claude/commands/` directory (new slash commands)
+   - agent configuration directory (new/modified agents)
+   - commands directory (new slash commands)
    - `/personal-data/projects/` (completed milestones)
 
 4. **Write narrative entries:**
@@ -329,8 +329,8 @@ You added natural language detection for common email replies. When you type "so
 
 Primary:
 - Git commit messages and diffs
-- Agent files in `agent-config-dir/`
-- Command files in `/.claude/commands/`
+- Agent files in the agent configuration directory
+- Command files in the commands directory
 - SOPs in `/sops/`
 
 Secondary:

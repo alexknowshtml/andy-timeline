@@ -180,7 +180,7 @@ The Strategic Advisor agent detected that you'd spent 0% time on "Growing Indy H
 ### Evening: The TypeScript Foundation
 
 **Commits `d7eda5f4` through `0690166f`:**
-- Set up TypeScript project (`processing-scripts-dir/`)
+- Set up TypeScript project (processing scripts directory)
 - Created 13 type interfaces
 - Implemented validation rules (23 tests passing)
 - Built Handlebars template with exact spacing from Oct 10 learnings
@@ -352,7 +352,7 @@ You migrated person files, agents, and SOPs to YAML frontmatter format - machine
 
 **Scope:**
 - All person files in `/personal-data/relationships/`
-- All agent files in `agent-config-dir/`
+- All agent files in the agent configuration directory
 - All SOPs in `/sops/`
 - Template files updated
 

@@ -1,6 +1,6 @@
 # Building Andy: The Development Timeline
 
-**October 8, 2025 - April 13, 2026 (Days 0-194)**
+**October 8, 2025 - April 20, 2026 (Days 0-201)**
 
 This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, two-way calendar sync, Discord voice replies, a Notion migration pipeline, context compaction resilience, a Spotify music database, Omi wearable integration, session continuity with state vectors, PM agent priority training, self-diagnostic forensics, PWYW registration automation, database independence via local PostgreSQL, multi-user Discord thread awareness, QMD semantic search with 54k+ vector embeddings, adaptive Sleepme bed temperature scheduling, unified 14-source search, automated iMessage contact resolution, political intelligence faction mapping, event reminder cascade UI, and a growing open source portfolio.
 
@@ -37,6 +37,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 23 | 174-180 | [Smart Model Routing, PM2 Fortification & the Pretty-Page Platform](./week-23-days-174-180.md) | Mar 24-30 | Model delegation, systemd watchdog, PM2 hardening, pretty-page platform |
 | 24 | 181-187 | [Political Intelligence, Event Reminders & the Open Source Push](./week-24-days-181-187.md) | Mar 31 - Apr 6 | LIFT Philly faction map, event reminders UI, session-share OSS, memory infrastructure |
 | 25 | 188-194 | [Simulator Intelligence, One-Time Jobs & the Interview Skills](./week-25-days-188-194.md) | Apr 7-13 | LIFT simulator unification, one-time job system, /ask-me interview patterns, model version centralization |
+| 26 | 195-201 | [Scheduled Job Fabric, Browser Harness & the RFC Pipeline](./week-26-days-195-201.md) | Apr 14-20 | Scheduled jobs + Discord buttons, browser-harness + LobsterLink, RFC→PRD→issues pipeline, Caddy config workflow |
 
 ---
 
@@ -117,14 +118,17 @@ The LIFT Philly faction mapping system went from concept to production — a SQL
 ### [Week 25: Simulator Intelligence, One-Time Jobs & the Interview Skills](./week-25-days-188-194.md) (Days 188-194)
 The LIFT Philly simulator was redesigned and unified into a single TypeScript source of truth — 79 tests, zero drift risk between model and simulator. Andy gained an identity layer (SOUL/MEMORY/DREAMS) and three interview skills (/ask-me with extract, grill, and plan patterns). A one-time job system was built from scratch (Bree plugin + HTTP API + disposable workers) to power Opus-guided flight check-in automation via Playwright. Claude model versions were centralized into config/claude.php. The review-council agent brought multi-perspective analysis. /upskill created a self-improvement loop extracting session learnings into skill definitions. Seven new skills shipped.
 
+### [Week 26: Scheduled Job Fabric, Browser Harness & the RFC Pipeline](./week-26-days-195-201.md) (Days 195-201)
+Five new scheduled jobs landed in a single afternoon, each wired to Discord with clickable action buttons routed through a new health-action-server PM2 service — relationship-warming-detector, 5pm overdue triage, afternoon check-in, job-health-monitor, and a resume button on host-bridge restart. The browser-harness skill shipped with CDP control via SSH tunnel and a LobsterLink viewer at viewer.jfdi.bot. An RFC→PRD→GitHub issues pipeline arrived via /to-prd, /to-issues, and /improve-andy-architecture. The DO Spaces index evolved through three design passes ending with 603 Playwright thumbnails. Caddy config management got a two-tier SOP. UI polish principles from Jakub Krehel applied to pretty-page. Ten new skills, three new SOPs.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 194 days (Oct 8, 2025 - Apr 13, 2026)
+- **Duration:** 201 days (Oct 8, 2025 - Apr 20, 2026)
 - **Agents:** 47+
-- **Skills:** 207+
-- **Lines of timeline:** 13,000+
+- **Skills:** 217+
+- **Lines of timeline:** 14,000+
 
 ---
 

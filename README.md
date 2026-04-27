@@ -38,6 +38,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 24 | 181-187 | [Political Intelligence, Event Reminders & the Open Source Push](./week-24-days-181-187.md) | Mar 31 - Apr 6 | LIFT Philly faction map, event reminders UI, session-share OSS, memory infrastructure |
 | 25 | 188-194 | [Simulator Intelligence, One-Time Jobs & the Interview Skills](./week-25-days-188-194.md) | Apr 7-13 | LIFT simulator unification, one-time job system, /ask-me interview patterns, model version centralization |
 | 26 | 195-201 | [Scheduled Job Fabric, Browser Harness & the RFC Pipeline](./week-26-days-195-201.md) | Apr 14-20 | Scheduled jobs + Discord buttons, browser-harness + LobsterLink, RFC→PRD→issues pipeline, Caddy config workflow |
+| 27 | 202-208 | [Email Template Pipeline, Mac Mini Agentics & Context Observability](./week-27-days-202-208.md) | Apr 21-27 | Email template pipeline (Phase 0 → Review UI), /mac-run computer-use, /context-xray observability, fork exhaustion crisis, Wyze + Mawn retirement |
 
 ---
 
@@ -120,6 +121,9 @@ The LIFT Philly simulator was redesigned and unified into a single TypeScript so
 
 ### [Week 26: Scheduled Job Fabric, Browser Harness & the RFC Pipeline](./week-26-days-195-201.md) (Days 195-201)
 Five new scheduled jobs landed in a single afternoon, each wired to Discord with clickable action buttons routed through a new health-action-server PM2 service — relationship-warming-detector, 5pm overdue triage, afternoon check-in, job-health-monitor, and a resume button on host-bridge restart. The browser-harness skill shipped with CDP control via SSH tunnel and a LobsterLink viewer at viewer.jfdi.bot. An RFC→PRD→GitHub issues pipeline arrived via /to-prd, /to-issues, and /improve-andy-architecture. The DO Spaces index evolved through three design passes ending with 603 Playwright thumbnails. Caddy config management got a two-tier SOP. UI polish principles from Jakub Krehel applied to pretty-page. Ten new skills, three new SOPs.
+
+### [Week 27: Email Template Pipeline, Mac Mini Agentics & Context Observability](./week-27-days-202-208.md) (Days 202-208)
+Three parallel pipelines: an email template pipeline that grew from Phase 0 prototype to processing 200+ historical replies into reusable templates with a Review UI; an agentic Mac Mini computer-use loop via the /mac-run skill; and a context observability pipeline that matured from a live context window visualizer into the /context-xray skill with per-block cost attribution. A fork exhaustion crisis on Day 206 surfaced spawn storms in a port registry script — fixed with batch external commands plus a permanent spawn audit footprint. The Mawn OpenTable sniper was retired entirely after a week of iteration. Wyze smart home shipped with lock control. The LIFT Philly petition gained Haiku moderation and a daily flagged-signers digest. Memory Graph Phase 3 added decay curves and a /graph debug command. The /coach ITC framework launched. Day 208 closed the week with a relationship refresh backfill (8-day Gmail-MCP credential outage, 67 recipients, 240 emails) and the recurring "scheduled but not running" pattern surfacing again in graph:decay.
 
 ---
 

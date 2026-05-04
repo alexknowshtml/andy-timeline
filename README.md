@@ -1,6 +1,6 @@
 # Building Andy: The Development Timeline
 
-**October 8, 2025 - April 20, 2026 (Days 0-201)**
+**October 8, 2025 - May 4, 2026 (Days 0-215)**
 
 This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, two-way calendar sync, Discord voice replies, a Notion migration pipeline, context compaction resilience, a Spotify music database, Omi wearable integration, session continuity with state vectors, PM agent priority training, self-diagnostic forensics, PWYW registration automation, database independence via local PostgreSQL, multi-user Discord thread awareness, QMD semantic search with 54k+ vector embeddings, adaptive Sleepme bed temperature scheduling, unified 14-source search, automated iMessage contact resolution, political intelligence faction mapping, event reminder cascade UI, and a growing open source portfolio.
 
@@ -39,6 +39,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 25 | 188-194 | [Simulator Intelligence, One-Time Jobs & the Interview Skills](./week-25-days-188-194.md) | Apr 7-13 | LIFT simulator unification, one-time job system, /ask-me interview patterns, model version centralization |
 | 26 | 195-201 | [Scheduled Job Fabric, Browser Harness & the RFC Pipeline](./week-26-days-195-201.md) | Apr 14-20 | Scheduled jobs + Discord buttons, browser-harness + LobsterLink, RFC→PRD→issues pipeline, Caddy config workflow |
 | 27 | 202-208 | [Email Template Pipeline, Mac Mini Agentics & Context Observability](./week-27-days-202-208.md) | Apr 21-27 | Email template pipeline (Phase 0 → Review UI), /mac-run computer-use, /context-xray observability, fork exhaustion crisis, Wyze + Mawn retirement |
+| 28 | 209-215 | [Google Meet Redesign, /research Skill & the Garage Rain Alert](./week-28-days-209-215.md) | Apr 28 - May 4 | Google Meet multi-pass pipeline, /research + samma-esana discipline, garage-rain-alert born & matured, /reflect stabilization, lift-philly refactor, write-post merger |
 
 ---
 
@@ -125,11 +126,14 @@ Five new scheduled jobs landed in a single afternoon, each wired to Discord with
 ### [Week 27: Email Template Pipeline, Mac Mini Agentics & Context Observability](./week-27-days-202-208.md) (Days 202-208)
 Three parallel pipelines: an email template pipeline that grew from Phase 0 prototype to processing 200+ historical replies into reusable templates with a Review UI; an agentic Mac Mini computer-use loop via the /mac-run skill; and a context observability pipeline that matured from a live context window visualizer into the /context-xray skill with per-block cost attribution. A fork exhaustion crisis on Day 206 surfaced spawn storms in a port registry script — fixed with batch external commands plus a permanent spawn audit footprint. The Mawn OpenTable sniper was retired entirely after a week of iteration. Wyze smart home shipped with lock control. The LIFT Philly petition gained Haiku moderation and a daily flagged-signers digest. Memory Graph Phase 3 added decay curves and a /graph debug command. The /coach ITC framework launched. Day 208 closed the week with a relationship refresh backfill (8-day Gmail-MCP credential outage, 67 recipients, 240 emails) and the recurring "scheduled but not running" pattern surfacing again in graph:decay.
 
+### [Week 28: Google Meet Redesign, /research Skill & the Garage Rain Alert](./week-28-days-209-215.md) (Days 209-215)
+Three big builds replaced fragile pieces with durable ones: the Google Meet processing pipeline was rebuilt end-to-end as a multi-pass system after a 106KB transcript blew out session context — thread-per-meeting, watchdog retries, dual-button review gate; the /research skill landed with a samma-esana web search discipline distilled from a Zenodo paper, wired into /fact-check, /file-this, and /sales-safari so every downstream web fetch inherits the discipline; the garage-rain-alert scheduled job was born and matured across two days in 13+ commits — Tomorrow.io polling, ClickSend SMS escalation, format-change detection, lookahead tightening, TypeScript rewrite. Day 209 closed last week's Gmail outage thread with scanner failure alerting. /reflect got Sessions API subagent discovery, no-auto-implementation, and Discord heartbeat posts. lift-philly refactored 226 → 101 lines with intent routing. write-post absorbed authentic-post as voice-first interview/extract mode. The Mazzoni Center HIV Testing Event agreement was sent for signature.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 201 days (Oct 8, 2025 - Apr 20, 2026)
+- **Duration:** 215 days (Oct 8, 2025 - May 4, 2026)
 - **Agents:** 47+
 - **Skills:** 217+
 - **Lines of timeline:** 14,000+

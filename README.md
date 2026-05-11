@@ -40,6 +40,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 26 | 195-201 | [Scheduled Job Fabric, Browser Harness & the RFC Pipeline](./week-26-days-195-201.md) | Apr 14-20 | Scheduled jobs + Discord buttons, browser-harness + LobsterLink, RFC→PRD→issues pipeline, Caddy config workflow |
 | 27 | 202-208 | [Email Template Pipeline, Mac Mini Agentics & Context Observability](./week-27-days-202-208.md) | Apr 21-27 | Email template pipeline (Phase 0 → Review UI), /mac-run computer-use, /context-xray observability, fork exhaustion crisis, Wyze + Mawn retirement |
 | 28 | 209-215 | [Google Meet Redesign, /research Skill & the Garage Rain Alert](./week-28-days-209-215.md) | Apr 28 - May 4 | Google Meet multi-pass pipeline, /research + samma-esana discipline, garage-rain-alert born & matured, /reflect stabilization, lift-philly refactor, write-post merger |
+| 29 | 216-222 | [The Clubhouse dB Meter, AI Hero Email Corpus & strategic-client-question Skill](./week-29-days-216-222.md) | May 5-11 | Clubhouse dB Meter device marathon (M5Stack StickS3), AI Hero email corpus + raw MIME rebuild, /peekaboo skill, strategic-client-question skill, agent-secret-manager Tailscale fork, semantic-search probe hardening, AI psychosis 2x2 council review |
 
 ---
 

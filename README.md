@@ -1,8 +1,8 @@
 # Building Andy: The Development Timeline
 
-**October 8, 2025 - May 4, 2026 (Days 0-215)**
+**October 8, 2025 - May 25, 2026 (Days 0-236)**
 
-This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 44+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, two-way calendar sync, Discord voice replies, a Notion migration pipeline, context compaction resilience, a Spotify music database, Omi wearable integration, session continuity with state vectors, PM agent priority training, self-diagnostic forensics, PWYW registration automation, database independence via local PostgreSQL, multi-user Discord thread awareness, QMD semantic search with 54k+ vector embeddings, adaptive Sleepme bed temperature scheduling, unified 14-source search, automated iMessage contact resolution, political intelligence faction mapping, event reminder cascade UI, and a growing open source portfolio.
+This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 47+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, two-way calendar sync, Discord voice replies, a Notion migration pipeline, context compaction resilience, a Spotify music database, Omi wearable integration, session continuity with state vectors, PM agent priority training, self-diagnostic forensics, PWYW registration automation, database independence via local PostgreSQL, multi-user Discord thread awareness, QMD semantic search with 54k+ vector embeddings, adaptive Sleepme bed temperature scheduling, unified 14-source search, automated iMessage contact resolution, political intelligence faction mapping, event reminder cascade UI, a persistent Claude Pane Pool eliminating fork storms, and a growing open source portfolio.
 
 What started as "let's see what Claude Code can do" became a daily collaboration that fundamentally changed how I think about building software with AI.
 
@@ -41,6 +41,8 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 27 | 202-208 | [Email Template Pipeline, Mac Mini Agentics & Context Observability](./week-27-days-202-208.md) | Apr 21-27 | Email template pipeline (Phase 0 → Review UI), /mac-run computer-use, /context-xray observability, fork exhaustion crisis, Wyze + Mawn retirement |
 | 28 | 209-215 | [Google Meet Redesign, /research Skill & the Garage Rain Alert](./week-28-days-209-215.md) | Apr 28 - May 4 | Google Meet multi-pass pipeline, /research + samma-esana discipline, garage-rain-alert born & matured, /reflect stabilization, lift-philly refactor, write-post merger |
 | 29 | 216-222 | [The Clubhouse dB Meter, AI Hero Email Corpus & strategic-client-question Skill](./week-29-days-216-222.md) | May 5-11 | Clubhouse dB Meter device marathon (M5Stack StickS3), AI Hero email corpus + raw MIME rebuild, /peekaboo skill, strategic-client-question skill, agent-secret-manager Tailscale fork, semantic-search probe hardening, AI psychosis 2x2 council review |
+| 30 | 223-229 | [Sound Meter Goes Web, the Brivo Marathon & CoworkingPhilly V2](./week-30-days-223-229.md) | May 12-18 | Sound monitor web pivot, Brivo HTTP service container, CoworkingPhilly research agents + V2 design, PM2 crash-loop protection, grill-with-docs skill |
+| 31 | 230-236 | [The Pane Pool Goes Live](./week-31-days-230-236.md) | May 19-25 | Claude Pane Pool (design → production in 6 days), EOD Pipeline multi-model, supply chain hardening, Pi integration, TaskCreate migration |
 
 ---
 
@@ -136,14 +138,17 @@ The Clubhouse dB Meter marathon dominated Sunday — 30+ commits on a brand-new 
 ### [Week 30: Sound Meter Goes Web, the Brivo Marathon & CoworkingPhilly V2](./week-30-days-223-229.md) (Days 223-229)
 Three signature builds: the sound monitor pivoted from in-skill to a public sound.indyhall.org viewer with Turso-backed reads, SSE live updates, calibration to the 3rd-floor Minut, and Caddy IP-restricted access; the Brivo marathon ran from a 00:11 ET basic-auth fix to a standalone HTTP service container at port 3850 with full unlock/lock/fob/schedule control in 24+ commits; CoworkingPhilly launched with Member Reality + Marketing Pitch research agents, LinkedIn Voyager + Instagram API source tiers validated against Braid Mill, 17 spaces researched, and a V2 design system rebuild on shadcn/ui with Newsreader typography. PM2 crash-loop protection landed for host-bridge and jfdi-reader after a Bun 1.3.13/1.3.14 SIGTRAP fork-storm (58 restarts). The grill-with-docs skill arrived from Matt Pocock for DDD-style scope interviews. Sonos gained Caddy IP restriction to Indy Hall WAN + tailnet only plus YouTube Music documentation. NLBID ED responsibilities went through a 6-step polish arc into board overview + responsibilities split. Hall Monitor got an upskill pass on Asset Builds, the Inertia + React Member Portal, and the Access Request System.
 
+### [Week 31: The Pane Pool Goes Live](./week-31-days-230-236.md) (Days 230-236)
+A singular build dominated: the Claude Pane Pool — a Podman container running persistent Claude Code sessions in tmux panes with an HTTP router on port 2650 — went from Monday evening design doc to production service routing all scheduled jobs by Friday. 508 commits, Tuesday alone hitting 135 (highest single-day ever). The architecture eliminated EAGAIN fork storms by replacing per-call process spawning with persistent sessions that accept prompts via HTTP and stream results via SSE. The EOD Pipeline was the first novel use — Haiku/Sonnet subagents gather data in parallel, Opus synthesizes. A supply chain hardening pass pinned dependencies across 12 repos and patched 16 CVEs. Pi integration shipped two extensions (transcript JSONL, Claude Code hooks). TaskCreate/TaskUpdate replaced TodoWrite system-wide. The Discord bridge gained turn-by-turn streaming into a dedicated panepool channel.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 229 days (Oct 8, 2025 - May 18, 2026)
+- **Duration:** 236 days (Oct 8, 2025 - May 25, 2026)
 - **Agents:** 47+
-- **Skills:** 217+
-- **Lines of timeline:** 14,000+
+- **Skills:** 220+
+- **Lines of timeline:** 14,500+
 
 ---
 

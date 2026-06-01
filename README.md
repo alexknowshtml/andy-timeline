@@ -1,6 +1,6 @@
 # Building Andy: The Development Timeline
 
-**October 8, 2025 - May 25, 2026 (Days 0-236)**
+**October 8, 2025 - June 1, 2026 (Days 0-243)**
 
 This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 47+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, two-way calendar sync, Discord voice replies, a Notion migration pipeline, context compaction resilience, a Spotify music database, Omi wearable integration, session continuity with state vectors, PM agent priority training, self-diagnostic forensics, PWYW registration automation, database independence via local PostgreSQL, multi-user Discord thread awareness, QMD semantic search with 54k+ vector embeddings, adaptive Sleepme bed temperature scheduling, unified 14-source search, automated iMessage contact resolution, political intelligence faction mapping, event reminder cascade UI, a persistent Claude Pane Pool eliminating fork storms, and a growing open source portfolio.
 
@@ -43,6 +43,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 29 | 216-222 | [The Clubhouse dB Meter, AI Hero Email Corpus & strategic-client-question Skill](./week-29-days-216-222.md) | May 5-11 | Clubhouse dB Meter device marathon (M5Stack StickS3), AI Hero email corpus + raw MIME rebuild, /peekaboo skill, strategic-client-question skill, agent-secret-manager Tailscale fork, semantic-search probe hardening, AI psychosis 2x2 council review |
 | 30 | 223-229 | [Sound Meter Goes Web, the Brivo Marathon & CoworkingPhilly V2](./week-30-days-223-229.md) | May 12-18 | Sound monitor web pivot, Brivo HTTP service container, CoworkingPhilly research agents + V2 design, PM2 crash-loop protection, grill-with-docs skill |
 | 31 | 230-236 | [The Pane Pool Goes Live](./week-31-days-230-236.md) | May 19-25 | Claude Pane Pool (design → production in 6 days), EOD Pipeline multi-model, supply chain hardening, Pi integration, TaskCreate migration |
+| 32 | 237-243 | [The Great Consolidation — Pane Pool Decommissioned](./week-32-days-237-243.md) | May 26-Jun 1 | Pane pool full decommission, herdr + jfdi invoker consolidation, CLI shell-injection hardening, /pay Mercury ACH skill, email preferences + segments system, promise → calendar-invite workflow |
 
 ---
 
@@ -141,14 +142,17 @@ Three signature builds: the sound monitor pivoted from in-skill to a public soun
 ### [Week 31: The Pane Pool Goes Live](./week-31-days-230-236.md) (Days 230-236)
 A singular build dominated: the Claude Pane Pool — a Podman container running persistent Claude Code sessions in tmux panes with an HTTP router on port 2650 — went from Monday evening design doc to production service routing all scheduled jobs by Friday. 508 commits, Tuesday alone hitting 135 (highest single-day ever). The architecture eliminated EAGAIN fork storms by replacing per-call process spawning with persistent sessions that accept prompts via HTTP and stream results via SSE. The EOD Pipeline was the first novel use — Haiku/Sonnet subagents gather data in parallel, Opus synthesizes. A supply chain hardening pass pinned dependencies across 12 repos and patched 16 CVEs. Pi integration shipped two extensions (transcript JSONL, Claude Code hooks). TaskCreate/TaskUpdate replaced TodoWrite system-wide. The Discord bridge gained turn-by-turn streaming into a dedicated panepool channel.
 
+### [Week 32: The Great Consolidation — Pane Pool Decommissioned](./week-32-days-237-243.md) (Days 237-243)
+The reversal: the pane pool that went live in Week 31 was fully decommissioned in Week 32 — service, infrastructure, and every caller removed in a single commit (`595ac38b3`, 26 files) with zero active jobs, because everything had already migrated to herdr, a simpler persistent-session manager. The decommission rode a broader Claude CLI consolidation: every direct `claude` call in `scripts/` routed through one hardened invoker, shell-injection-proofed, with `maxTurns`/`disallowedTools` controls and a USE_JFDI migration of a dozen scheduled jobs. Sunday alone was 139 commits. Running parallel: a member-communications build — a topic-based email preferences and segments system on `prefs.indyhall.org` (Netlify + Turso, daily Nexudus sync), an iPostal subscriber UI with login-state detection, and an email promise-detection → calendar-invite workflow. New skills: `/pay` (Mercury ACH payments), `travel-research` (with a live fact-check pass that caught its own first draft), `extract-email-promises`, and `laravel-security-patch`. 450 commits across the week.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 236 days (Oct 8, 2025 - May 25, 2026)
+- **Duration:** 243 days (Oct 8, 2025 - June 1, 2026)
 - **Agents:** 47+
-- **Skills:** 220+
-- **Lines of timeline:** 14,500+
+- **Skills:** 224+
+- **Lines of timeline:** 14,800+
 
 ---
 

@@ -1,8 +1,8 @@
 # Building Andy: The Development Timeline
 
-**October 8, 2025 - June 1, 2026 (Days 0-243)**
+**October 8, 2025 - June 7, 2026 (Days 0-249)**
 
-This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 47+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, two-way calendar sync, Discord voice replies, a Notion migration pipeline, context compaction resilience, a Spotify music database, Omi wearable integration, session continuity with state vectors, PM agent priority training, self-diagnostic forensics, PWYW registration automation, database independence via local PostgreSQL, multi-user Discord thread awareness, QMD semantic search with 54k+ vector embeddings, adaptive Sleepme bed temperature scheduling, unified 14-source search, automated iMessage contact resolution, political intelligence faction mapping, event reminder cascade UI, a persistent Claude Pane Pool eliminating fork storms, and a growing open source portfolio.
+This is the story of how Andy evolved from a blank repository to a fully operational AI executive assistant system with 47+ agents, automated workflows, self-healing infrastructure, production intelligence, a modular skills system, polished chat interface with synthesis intelligence, comprehensive API skills, voice input, Claude Memory integration, security hardening with push notifications, Memory Lane semantic memory, auto-suggest buttons with agent-based architecture, WebSocket consolidation, UniFi Network Tracker, Discord-based human-in-the-loop approval workflows, @Andy Discord conversations with threaded interactions, Langfuse observability integration, LiveKit voice conversations, two-way calendar sync, Discord voice replies, a Notion migration pipeline, context compaction resilience, a Spotify music database, Omi wearable integration, session continuity with state vectors, PM agent priority training, self-diagnostic forensics, PWYW registration automation, database independence via local PostgreSQL, multi-user Discord thread awareness, QMD semantic search with 54k+ vector embeddings, adaptive Sleepme bed temperature scheduling, unified 14-source search, automated iMessage contact resolution, political intelligence faction mapping, event reminder cascade UI, a persistent Claude Pane Pool eliminating fork storms, two-way SMS texting integrated into Discord, a Wine Cellar management app with 56-wine notes and pairings backfill, and a growing open source portfolio — all Claude calls now routing through a single jfdi/herdr invoker.
 
 What started as "let's see what Claude Code can do" became a daily collaboration that fundamentally changed how I think about building software with AI.
 
@@ -44,6 +44,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 30 | 223-229 | [Sound Meter Goes Web, the Brivo Marathon & CoworkingPhilly V2](./week-30-days-223-229.md) | May 12-18 | Sound monitor web pivot, Brivo HTTP service container, CoworkingPhilly research agents + V2 design, PM2 crash-loop protection, grill-with-docs skill |
 | 31 | 230-236 | [The Pane Pool Goes Live](./week-31-days-230-236.md) | May 19-25 | Claude Pane Pool (design → production in 6 days), EOD Pipeline multi-model, supply chain hardening, Pi integration, TaskCreate migration |
 | 32 | 237-243 | [The Great Consolidation — Pane Pool Decommissioned](./week-32-days-237-243.md) | May 26-Jun 1 | Pane pool full decommission, herdr + jfdi invoker consolidation, CLI shell-injection hardening, /pay Mercury ACH skill, email preferences + segments system, promise → calendar-invite workflow |
+| 33 | 244-250 | [The jfdi Epoch — All of Andy Core Speaks Through One Invoker](./week-33-days-244-250.md) | Jun 2-8 | jfdi Phase 6 complete (CLAUDE_PATH flip + all-jobs USE_JFDI), two-way SMS launch (VoIP.ms → Telnyx), promise-bot battle-hardening, Wine Cellar full app build (56 wines), /audit-plans + 143-plan audit, catch-memories self-loop fix |
 
 ---
 
@@ -145,14 +146,17 @@ A singular build dominated: the Claude Pane Pool — a Podman container running 
 ### [Week 32: The Great Consolidation — Pane Pool Decommissioned](./week-32-days-237-243.md) (Days 237-243)
 The reversal: the pane pool that went live in Week 31 was fully decommissioned in Week 32 — service, infrastructure, and every caller removed in a single commit (`595ac38b3`, 26 files) with zero active jobs, because everything had already migrated to herdr, a simpler persistent-session manager. The decommission rode a broader Claude CLI consolidation: every direct `claude` call in `scripts/` routed through one hardened invoker, shell-injection-proofed, with `maxTurns`/`disallowedTools` controls and a USE_JFDI migration of a dozen scheduled jobs. Sunday alone was 139 commits. Running parallel: a member-communications build — a topic-based email preferences and segments system on `prefs.indyhall.org` (Netlify + Turso, daily Nexudus sync), an iPostal subscriber UI with login-state detection, and an email promise-detection → calendar-invite workflow. New skills: `/pay` (Mercury ACH payments), `travel-research` (with a live fact-check pass that caught its own first draft), `extract-email-promises`, and `laravel-security-patch`. 450 commits across the week.
 
+### [Week 33: The jfdi Epoch — All of Andy Core Speaks Through One Invoker](./week-33-days-244-250.md) (Days 244-250)
+Week 32 hardened `scripts/`. Week 33 completed the migration: `CLAUDE_PATH` inside Andy Core itself flipped to `jfdi`, all scheduled jobs moved to `USE_JFDI=1`, and Discord spawns routed through herdr — every Claude call in the entire system now goes through one invoker. The flip required two reverts and a cluster of host-bridge parsing fixes (jfdi uses coarse JSONL events, not fine-grained `content_block` events). Running parallel: two-way SMS launched on VoIP.ms and immediately pivoted to Telnyx after a 10DLC carrier rejection; the promise-cal-invite workflow got 13 battle-hardening commits (persistent state, location inference, approval-format redesigns, wayfinding notes); the wine rack moved from `/tmp` into the repo and grew into a full app with filters, search, 56-wine notes backfill, pairings, and collection valuation in 25+ commits. The `/audit-plans` skill codified a goal-extraction audit methodology, and the full 143-plan archive sweep completed across two days. A catch-memories/probe-graph self-loop bug required a two-layer fix at both the injection and detection points.
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 243 days (Oct 8, 2025 - June 1, 2026)
+- **Duration:** 249 days (Oct 8, 2025 - June 7, 2026)
 - **Agents:** 47+
-- **Skills:** 224+
-- **Lines of timeline:** 14,800+
+- **Skills:** 228+
+- **Lines of timeline:** 15,400+
 
 ---
 

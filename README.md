@@ -55,6 +55,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 41 | 300-306 | [The JFDI Recorder — Zero to PWA, Backup Confidence, and the 78-Day Silent Alarm](./week-41-days-300-306.md) | Jul 28-Aug 3 | JFDI Recorder PWA (Phase 1-3 build + 4-layer reliability: IDB backup, chunked server upload, iOS interruption handler, debug panel, Plyr audio, Replay button), PostgreSQL backup offsite to DO Spaces (WAL streaming + base backup + pg_archivecleanup pruning + GFS retention + restore-verified #495/#496), /now slash command, subrouter retired, voice-memo-watcher tmpfs cascade fix (stage+rsync), watchdog 78-day D-state re-alert loop, herdr env scrub + 0.7.5 compat mapping |
 | 42 | 307-313 | [herdr Graduates, the TikTok Archives Open, and Discord Gets Task Eyes](./week-42-days-307-313.md) | Aug 4-10 | herdr 0.8.0 graduation (PM2 → systemd migration #530, patched pipeline retired #500, herdr-real → herdr-custom), 5-database PITR coverage (WAL + base backup extended from andy_core to all 5 app DBs), /airspace drone clearance skill (OpenAIP + Nominatim, 25 intent triggers), TikTok archive flood (700+ bookmarks from 2018-2023) + transcription breakthrough (Mac mini proxy solves Hetzner geo-block, transcribe-first order), Discord task visibility (live todo embed → spinner attachment → permanent teardown receipt), memory injection embeds with bidirectional thread linking, morning-context sent-email resolution evidence, spawn-utils duplicate post fix (#527) |
 | 43 | 314-320 | [Work Orders Take Flight — Four Delivered in a Day](./week-43-days-314-320.md) | Aug 11-17 | Work Orders system (WO-001 DB+API, WO-002 runner, claimed atomic lock, skill + 25 intent triggers; WO-001 through WO-004 all delivered same day), relationship last_contact 7.5-month freeze bug fixed (128 files normalized, 1035 freshness labels), msgvault nightly cache + CLI wrapper, Discord bridge route table (replaces 49-line dispatch), Sonos auto-recovery watchdog, /gog + /diagram skills, backup hardening (silent failure alerts + delete-after-verify), scheduler GH #557 (10 more Bree jobs migrated), Guacamole desktop skill + ffmpeg screenshot capability |
+| 44 | 321-327 | [The Shopper Takes the Wheel](./week-44-days-321-327.md) | Aug 18-24 | Amazon shopper agent (GH #593, three-layer cart safety: JFDI gate + Discord ID restriction + CLI --confirm-phrase), TikTok CDN video archive (DO Spaces, permanent links, retry + Discord alert), OpenHistory MCP (PM2 SSH tunnels + 30-min sync job + EOD Step 1.6), /work-on skill with project registry + 12 intent triggers, supplies repurchase gate, system-watchdog snapshot race fix (GH #595), Luis Cielak Cursor/XAI ethics meeting |
 
 ---
 
@@ -189,12 +190,15 @@ Five quiet days gave way to two dense ones. August 8 closed three arcs simultane
 ### [Week 43: Work Orders Take Flight — Four Delivered in a Day](./week-43-days-314-320.md) (Days 314-320)
 Buildup and breakthrough. Monday through Friday brought incremental hardening: newsletter sent, Sonos auto-recovery watchdog, /gog and /diagram skills formalized, backup silent-failure alerts and weekly restore verification, and ten more Bree scheduled jobs migrated to runWithGate child_process. Saturday, August 16 was the breakthrough: the entire Work Orders system — database, API, runner, claimed atomic lock, Discord bridge wiring, skill, and intent triggers — was built and WO-001 through WO-004 were all delivered in one session. The same day surfaced and fixed a 7.5-month relationship data freeze (128 files with quoted last_contact dates frozen by a YAML round-trip bug). Sunday added the Guacamole desktop skill and ffmpeg screenshot capability, giving the Hetzner server a visual workspace for the first time.
 
+### [Week 44: The Shopper Takes the Wheel](./week-44-days-321-327.md) (Days 321-327)
+Recovery after the Work Orders sprint, then two waves of feature work. Day 324 brought back-to-back meetings: a Cursor/XAI ethics conversation with Luis Cielak and a conference structure debrief. Day 325 was the dense shipping day: the Amazon shopper agent closed GH #593 with a three-layer cart safety model (JFDI gate → Discord ID restriction → CLI --confirm-phrase flag), TikTok bookmarks gained permanent CDN-hosted video links at page.jfdi.bot, and the supplies skill got a repurchase gate. Days 326-327 layered in infrastructure: OpenHistory MCP tunnels wired Mac Mini browser activity into the EOD pipeline via a 30-minute sync job, the /work-on skill made project context loading a natural phrase with 12 intent triggers, and the system-watchdog got a snapshot race fix that eliminated count-exceeds-total false advisories (GH #595).
+
 ---
 
 ## Quick Stats
 
-- **Duration:** 320 days (Oct 8, 2025 - August 17, 2026)
-- **Agents:** 47+
+- **Duration:** 327 days (Oct 1, 2025 - August 24, 2026)
+- **Agents:** 48+
 - **Skills:** 233+
 - **Lines of timeline:** 19,000+
 

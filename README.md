@@ -63,7 +63,7 @@ What started as "let's see what Claude Code can do" became a daily collaboration
 | 49 | 356-362 | [The Party, the Pricing Overhaul, and the Skill Listing That Finally Fits](./week-49-days-356-362.md) | Sep 22-28 | IH20 20th Anniversary Party, skills listing overhaul (117k→24k budget, 136 descriptions rewritten, #791), GH #799 token usage overhaul (4 phases: server-side pricing, dedup'd session cost, durable daily table, UI reconciliation), herdr restart hardening (OnFailure notifier + podman-conmon rescue + e2e test), YouOS retired, intent-hook 26 misfiring triggers dropped, Beam screen share skill, pg_dump truncation fix (22-day silent backup failure), context-window compaction markers (#755) |
 | 50 | 363-369 | [The Phone Goes Both Ways](./week-50-days-363-369.md) | Sep 29 - Oct 5 | Call-agent voice polish (#845), SMS Andy mode launch (#862) with tapback system + webhook security, wake promise backstop, braille UI system, jfdi-context shadow mode (#857) |
 | 51 | 370-376 | [The One-Year Mark](./week-51-days-370-376.md) | Oct 6-12 | One-year anniversary, iPostal dashboard marathon (GH #875), sensemaker experiments, Andy Meet live lookups (GH #906), multi-region backup (GH #926), SMS group texts (GH #924), subagent context meter + bulk-delete guard |
-| 52 | 377-383 | [The CoS Architecture Overhaul](./week-52-days-377-383.md) | Oct 13-19 | Mid-turn relay (#1061), thread intent system (#1077), set-aside replaces Parked (#1057), open-items candidates+verdicts (#1065), close-check marathon (19 fixes, #1059-#1084), overnight/buried-card nudges (#1082-#1083) |
+| 52 | 377-383 | [Building the Chief of Staff](./week-52-days-377-383.md) | Oct 13-19 | Brivo keyholder database, iPostal pickup automation, NLBID minutes pipeline, CoS live (#999), Cohort 005 viewer, OpenHistory MCP, CoS architecture overhaul (mid-turn relay, set-aside, close-check marathon) |
 
 ---
 
@@ -213,8 +213,8 @@ Post-party aftermath transitioned into the week's two signature builds. The call
 ### [Week 51: The One-Year Mark](./week-51-days-370-376.md) (Days 370-376)
 October 8 marked one year since Day 0 — celebrated with the highest-volume week in the project's history. October 10 set the all-time single-day commit record at 367. The IH20 photo archive gained 60 party videos and a unified picker. The /issue skill was thinned and audited. The one-year day brought call recordings wired into #calls as panels with AI summaries, the voice acquiring Andy's personality, and Jev beginning to score multi-person group thread routing. October 9-10 was the iPostal marathon: SQLite became the source of truth on day one, then the dashboard was completely rebuilt with envelope thumbnails, box drop-downs, and mobile-first design. While that ran, a sensemaker experiment loop completed six experiments, Andy Meet got a live lookup worker, Discord gained a thread transcript exporter, and the EOD brief earned a Meetings section. October 11 shipped SMS group text support (round 1), hardened backups to two DO Spaces regions, added a subagent context meter, and blocked bulk deletes behind NAS quarantine. October 12 completed group texts with round 2 trust levels, tapbacks, picture texts, and context-carry.
 
-### [Week 52: The CoS Architecture Overhaul](./week-52-days-377-383.md) (Days 377-383)
-Five quiet days followed by one architecturally focused session. October 18 produced 55+ significant commits, all targeting the Chief of Staff system. The mid-turn relay system shipped — messages now reach a running Claude instance at its next tool call rather than waiting in a queue. The Parked thread concept was retired in favor of Set-aside with backlog-to-issue sync. New threads declare intent at creation (build/file_only/ask). Open Items gained a candidates+verdicts layer. Nineteen close-check fixes across issues #1059-#1084 closed every accumulated failure mode in one session. The week ended with Andy's voice applied to CoS replies and overnight/buried-card nudges going live. Model delegation was clarified: Opus is the Discord default, two-strikes escalates to Fable.
+### [Week 52: Building the Chief of Staff](./week-52-days-377-383.md) (Days 377-383)
+No quiet days — every day shipped significant work. The Brivo keyholder database went from zero to a public site at keyholders.indyhall.org with 2-year backfill, Weekend Regulars view, and email segments in a single day (Oct 14). An NLBID board meeting minutes pipeline launched with auto-detection and a standard template (Oct 15). The Chief of Staff flipped live on Oct 16 — a three-line commit after weeks of infrastructure. Oct 17 was the biggest CoS feature day ever: 40+ commits shipping the webhook persona, roster card, promise judge, close-check, and the Cohort 005 screening viewer at screening.stackingthebricks.com alongside OpenHistory MCP going to every session. Oct 18 delivered the architectural overhaul: mid-turn relay, set-aside replacing Parked, open-items candidates+verdicts, thread intent system, and nineteen close-check fixes. Oct 19 finished the overnight nudge.
 
 ---
 
@@ -223,7 +223,7 @@ Five quiet days followed by one architecturally focused session. October 18 prod
 - **Duration:** 383 days (Oct 8, 2025 - October 19, 2026)
 - **Agents:** 48+
 - **Skills:** 235+
-- **Lines of timeline:** 21,000+
+- **Lines of timeline:** 22,000+
 
 ---
 
